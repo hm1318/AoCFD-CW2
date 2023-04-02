@@ -1,0 +1,46 @@
+#!/bin/bash
+# ---------- RESOURCES REQUIRED -------------
+# Resources are selected using special comments in the script which begin with
+#   #SBATCH
+# Modify the parameters to the #SBATCH lines below to your needs.
+
+# These lines request one computer with 4 MPI tasks.
+# No more than 16 tasks. No more than 1 node.
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+
+# Request a *total* memory of 2 GB (across all tasks)
+#SBATCH --mem=8GB
+
+# The maximum runtime of our job
+#SBATCH --time=23:30:00
+
+# Give our job a name -- helpful if you submit multiple jobs to the queue.
+#SBATCH --job-name=myrun.xml
+
+# The queue to submit our job to - run
+#   sinfo
+# to see available queues.
+# Different queues can use different resources. Target
+# the queue with the shortest walltime to fit your needs to ensure your job runs
+# as soon as possible.
+# Make sure runtime selected above is within the time limit of the queue
+#SBATCH --partition=long
+
+# ----------- COMMANDS TO RUN ----------------
+# Load any environment modules you need (uncomment this line and adjust)
+module load nektar++
+
+# Variable holding the name of our executable
+INS=IncNavierStokesSolver
+
+# Run our solver with an input file located in the directory from where you
+# submit the job.
+mpiexec $INS s7055.xml session3d.xml --npz 2 &> runlog
+
+# Submit this file by running
+#   sbatch run.slr
+# Monitor the job queue by running
+#   squeue
+
+

@@ -11,11 +11,10 @@
             <I PROPERTY="EvolutionOperator" VALUE="Nonlinear"/>
             <I PROPERTY="AdvectionForm"     VALUE="Convective"/>
             <I PROPERTY="Projection"        VALUE="Galerkin" />
-            <!--I PROPERTY="GlobalSysSoln" VALUE="XxtMultiLevelStaticCond"/-->
             <I PROPERTY="TimeIntegrationMethod" VALUE="IMEXOrder2" />
-            <!--I PROPERTY="DEALIASING" VALUE="True" />
+            <I PROPERTY="DEALIASING" VALUE="True" />
             <I PROPERTY="SPECTRALDEALIASING" VALUE="True" />
-            <I PROPERTY="SPECTRALHPDEALIASING" VALUE="True" /-->
+            <I PROPERTY="SPECTRALHPDEALIASING" VALUE="True" />
             <I PROPERTY="SpectralVanishingViscosity" VALUE="DGKernel" />
             <I PROPERTY="SpectralVanishingViscosityHomo1D" VALUE="True" />
 	    <I PROPERTY="USEFFT"            VALUE="FFTW"/>
@@ -39,15 +38,20 @@
         </GLOBALSYSSOLNINFO>
 
         <PARAMETERS>
-            <P> TimeStep      =                                            </P> <!-- Time step -->   
-            <P> NumSteps      =                                            </P> <!-- Number of step -->
-            <P> IO_CheckSteps =                                            </P> <!-- Number of step to write the intermediate results -->
-            <P> IO_InfoSteps  =                                            </P> <!-- Number of step to print information -->
-            <P> IO_CFLSteps   =                                            </P> <!-- Number of step to print CFL number  -->
-            <P> Re            = 301600.0                                  </P>
-            <P> Kinvis        = 1./Re                                	   </P>
-            <P> HomModesZ     = 8                       	           </P>
+            <P> TimeStep      = 1.0e-4             </P> <!-- Time step -->   
+            <P> NumSteps      = 1e5                </P> <!-- Number of step -->
+            <P> IO_CheckSteps = 1000               </P> <!-- Number of step to write the intermediate results -->
+            <P> IO_InfoSteps  = 100                </P> <!-- Number of step to print information -->
+            <P> IO_CFLSteps   = 100                </P> <!-- Number of step to print CFL number  -->
+            <P> Re            = 301600.0           </P>
+            <P> Kinvis        = 1./Re              </P>
+            <P> HomModesZ     = 8                  </P>
             <P> LZ            = 0.25         	   </P>
+
+            <P> AoA           = (-4.0)*PI/180              	           </P>
+            <P> Uinf          = 1.0     	                           </P>
+            <P> Uinfx         = Uinf*cos(AoA)         	             </P>
+            <P> Uinfy         = Uinf*sin(AoA)          	             </P>
         </PARAMETERS> 
         <VARIABLES>
             <V ID="0"> u </V>
@@ -57,9 +61,9 @@
         </VARIABLES>
         <BOUNDARYREGIONS>
             <B ID="0"> C[5,6] </B>      <!-- airfoil wall-->
-            <B ID="1">        </B>      <!-- Inflow -->
-            <B ID="2">        </B>      <!-- outflow -->
-            <B ID="3">        </B>      <!-- Far Field -->
+            <B ID="1"> C[1]       </B>      <!-- Inflow -->
+            <B ID="2"> C[3]       </B>      <!-- outflow -->
+            <B ID="3"> C[2]       </B>      <!-- Far Field -->
             <B ID="4"> C[4]   </B>      <!-- Far Field -->
         </BOUNDARYREGIONS>
         <BOUNDARYCONDITIONS>
@@ -70,34 +74,34 @@
                 <N VAR="p" USERDEFINEDTYPE="H" VALUE="0" />
             </REGION>
             <REGION REF="1"> <!-- Inflow -->
-       		<D VAR="u" VALUE="" />
-                <D VAR="v" VALUE="" />
-                <D VAR="w" VALUE="" />
-	        <N VAR="p" USERDEFINEDTYPE="" VALUE="" />  
+       		<D VAR="u" VALUE="Uinfx" />
+                <D VAR="v" VALUE="Uinfy" />
+                <D VAR="w" VALUE="0" />
+	        <N VAR="p" USERDEFINEDTYPE="H" VALUE="0" />  
             </REGION>
             <REGION REF="2"> <!-- outflow -->
-                <N VAR="u" USERDEFINEDTYPE="" VALUE="0" />
-	        <N VAR="v" USERDEFINEDTYPE="" VALUE="" />
-	        <N VAR="w" USERDEFINEDTYPE="" VALUE="" />
-	        <D VAR="p" USERDEFINEDTYPE="" VALUE="" />
+                <N VAR="u" USERDEFINEDTYPE="HOutflow" VALUE="0" />
+	        <N VAR="v" USERDEFINEDTYPE="HOutflow" VALUE="0" />
+	        <N VAR="w" USERDEFINEDTYPE="HOutflow" VALUE="0" />
+	        <D VAR="p" USERDEFINEDTYPE="HOutflow" VALUE="0" />
             </REGION>
             <REGION REF="3"> <!-- side -->
        		<D VAR="u" VALUE="Uinfx" />
-                <D VAR="v" VALUE="" />
-                <D VAR="w" VALUE="" />
-	        <N VAR="p" USERDEFINEDTYPE="" VALUE="" />  
+                <D VAR="v" VALUE="Uinfy" />
+                <D VAR="w" VALUE="0" />
+	        <N VAR="p" USERDEFINEDTYPE="H" VALUE="0" />  
             </REGION>
             <REGION REF="4"> <!-- side -->
-       		<D VAR="u" VALUE="" />
-                <D VAR="v" VALUE="" />
-                <D VAR="w" VALUE="" />
-	        <N VAR="p" USERDEFINEDTYPE="" VALUE="" />  
+       		<D VAR="u" VALUE="Uinfx" />
+                <D VAR="v" VALUE="Uinfy" />
+                <D VAR="w" VALUE="0" />
+	        <N VAR="p" USERDEFINEDTYPE="H" VALUE="0" />  
             </REGION>
         </BOUNDARYCONDITIONS>
       
         <!-- Specify the initial condition -->
         <FUNCTION NAME="InitialConditions">
-            <F VAR="u,v,p" FILE="Name of the restart file " />
+            <F VAR="u,v,p" FILE="s7055.rst" />  <!-- make sure insert correct file here-->
             <E VAR="w" VALUE="0.05*awgn(1.)" />
         </FUNCTION>
       
@@ -105,8 +109,8 @@
     
     <FILTERS>
         <FILTER TYPE="AeroForces">
-            <PARAM NAME="OutputFile"> NAME of the output file </PARAM>
-            <PARAM NAME="OutputFrequency"> Frequency of outputing the forces </PARAM>
+            <PARAM NAME="OutputFile"> aeroForces3D-4 </PARAM>
+            <PARAM NAME="OutputFrequency"> 20 </PARAM>
             <PARAM NAME="Boundary"> B[0] </PARAM>
             <PARAM NAME="MomentPoint">0.0 0. 0. </PARAM>
         </FILTER>

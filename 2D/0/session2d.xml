@@ -45,7 +45,7 @@
         <P> Re            = 301600.0                                   </P>
         <P> Kinvis        = 1.0/Re             	                       </P>
       
-        <P> AoA           = (-4.0)*PI/180              	           </P>
+        <P> AoA           = (0.0)*PI/180              	           </P>
         <P> Uinf          = 1.0     	                           </P>
         <P> Uinfx         = Uinf*cos(AoA)         	             </P>
         <P> Uinfy         = Uinf*sin(AoA)          	             </P>
@@ -103,7 +103,7 @@
     <!-- Filter to calculate the Aero forces -->
     <FILTERS> 
         <FILTER TYPE="AeroForces">
-            <PARAM NAME="OutputFile"> aeroForces-4 </PARAM>
+            <PARAM NAME="OutputFile"> aeroForces0 </PARAM>
             <PARAM NAME="OutputFrequency"> 20 </PARAM>
             <PARAM NAME="Boundary"> B[0] </PARAM>
         </FILTER>

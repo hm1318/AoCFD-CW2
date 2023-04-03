@@ -7,16 +7,16 @@
 # These lines request one computer with 4 MPI tasks.
 # No more than 16 tasks. No more than 1 node.
 #SBATCH --nodes=1
-#SBATCH --ntasks=8
+#SBATCH --ntasks=4
 
 # Request a *total* memory of 2 GB (across all tasks)
-#SBATCH --mem=8GB
+#SBATCH --mem=2GB
 
-# The maximum runtime of our job
-#SBATCH --time=23:30:00
+# The maximum runtime of our job.
+#SBATCH --time=04:00:00
 
 # Give our job a name -- helpful if you submit multiple jobs to the queue.
-#SBATCH --job-name=my3Drun.xml
+#SBATCH --job-name=my2Drun0.xml
 
 # The queue to submit our job to - run
 #   sinfo
@@ -36,7 +36,7 @@ INS=IncNavierStokesSolver
 
 # Run our solver with an input file located in the directory from where you
 # submit the job.
-mpiexec $INS s7055.xml session3d.xml --npz 2 &> runlog
+mpiexec $INS s7055.xml session2d.xml &> runlog
 
 # Submit this file by running
 #   sbatch run.slr

@@ -6,9 +6,9 @@
 #SBATCH --mem=2GB
 
 # The maximum runtime of our job.
-#SBATCH --time=02:00:00
+#SBATCH --time=04:00:00
 
-#SBATCH --job-name=my2Drun-4.xml
+#SBATCH --job-name=my2Drun-4_default.xml
 
 #SBATCH --partition=long
 
@@ -23,4 +23,5 @@ INS=IncNavierStokesSolver
 # submit the job.
 mpiexec $INS s7055.xml session2d.xml &> runlog
 
-
+cd ../dealiasing
+sbatch run2D.slr

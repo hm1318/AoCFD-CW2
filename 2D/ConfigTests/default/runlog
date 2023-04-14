@@ -1,0 +1,96 @@
+=======================================================================
+	        EquationType: UnsteadyNavierStokes
+	        Session Name: s7055
+	        Spatial Dim.: 2
+	  Max SEM Exp. Order: 7
+	      Num. Processes: 8
+	      Expansion Dim.: 2
+	     Projection Type: Continuous Galerkin
+	 Advect. advancement: explicit
+	Diffuse. advancement: implicit
+	           Time Step: 0.0001
+	        No. of Steps: 100000
+	 Checkpoints (steps): 1000
+	    Integration Type: IMEX
+	    Splitting Scheme: Velocity correction (strong press. form)
+	    Smoothing-SpecHP: SVV (spectral/hp DG Kernel (diff coeff = 1*Uh/p))
+=======================================================================
+Initial Conditions:
+  - Field u: Uinfx
+  - Field v: Uinfy
+  - Field p: 0
+Writing: "s7055_0.chk" (0.0318413s, XML)
+Steps: 100      Time: 0.01         CPU Time: 17.497s 
+CFL: 0.520765 (in elmt 2)
+Steps: 200      Time: 0.02         CPU Time: 10.8652s
+CFL: 0.391614 (in elmt 201)
+Steps: 300      Time: 0.03         CPU Time: 10.9731s
+CFL: 0.391801 (in elmt 201)
+Steps: 400      Time: 0.04         CPU Time: 10.7699s
+CFL: 0.391634 (in elmt 201)
+Steps: 500      Time: 0.05         CPU Time: 10.8398s
+CFL: 0.391439 (in elmt 201)
+Steps: 600      Time: 0.06         CPU Time: 10.8995s
+CFL: 0.391251 (in elmt 201)
+Steps: 700      Time: 0.07         CPU Time: 10.8707s
+CFL: 0.391062 (in elmt 201)
+Steps: 800      Time: 0.08         CPU Time: 10.839s 
+CFL: 0.390865 (in elmt 201)
+Steps: 900      Time: 0.09         CPU Time: 10.8004s
+CFL: 0.390661 (in elmt 201)
+Steps: 1000     Time: 0.1          CPU Time: 10.6222s
+CFL: 0.390451 (in elmt 201)
+Total filters CPU Time:			     0.00247396s
+Writing: "s7055_1.chk" (0.0380619s, XML)
+Steps: 1100     Time: 0.11         CPU Time: 10.6203s
+CFL: 0.390236 (in elmt 201)
+Steps: 1200     Time: 0.12         CPU Time: 10.7177s
+CFL: 0.390027 (in elmt 201)
+Steps: 1300     Time: 0.13         CPU Time: 10.6931s
+CFL: 0.389804 (in elmt 201)
+Steps: 1400     Time: 0.14         CPU Time: 10.6088s
+CFL: 0.389568 (in elmt 201)
+Steps: 1500     Time: 0.15         CPU Time: 10.5704s
+CFL: 0.389326 (in elmt 201)
+Steps: 1600     Time: 0.16         CPU Time: 10.6303s
+CFL: 0.389072 (in elmt 201)
+Steps: 1700     Time: 0.17         CPU Time: 10.5583s
+CFL: 0.3888 (in elmt 201)
+Steps: 1800     Time: 0.18         CPU Time: 10.5892s
+CFL: 0.38851 (in elmt 201)
+Steps: 1900     Time: 0.19         CPU Time: 10.5866s
+CFL: 0.388204 (in elmt 201)
+Steps: 2000     Time: 0.2          CPU Time: 10.5978s
+CFL: 0.387879 (in elmt 201)
+Total filters CPU Time:			     0.00360529s
+Writing: "s7055_2.chk" (0.0407971s, XML)
+Steps: 2100     Time: 0.21         CPU Time: 10.6101s
+CFL: 0.387533 (in elmt 201)
+Steps: 2200     Time: 0.22         CPU Time: 10.6159s
+CFL: 0.387166 (in elmt 201)
+Steps: 2300     Time: 0.23         CPU Time: 10.6232s
+CFL: 0.400991 (in elmt 145)
+Steps: 2400     Time: 0.24         CPU Time: 10.5883s
+CFL: 0.409795 (in elmt 145)
+Steps: 2500     Time: 0.25         CPU Time: 10.62s  
+CFL: 0.385689 (in elmt 201)
+Steps: 2600     Time: 0.26         CPU Time: 10.7119s
+CFL: 0.42503 (in elmt 145)
+Steps: 2700     Time: 0.27         CPU Time: 10.7209s
+CFL: 0.598999 (in elmt 152)
+Steps: 2800     Time: 0.28         CPU Time: 10.7693s
+CFL: 0.480401 (in elmt 152)
+Steps: 2900     Time: 0.29         CPU Time: 10.777s 
+CFL: 0.501017 (in elmt 145)
+Steps: 3000     Time: 0.3          CPU Time: 10.8556s
+CFL: 0.467288 (in elmt 145)
+Total filters CPU Time:			     0.00264571s
+Writing: "s7055_3.chk" (0.0434684s, XML)
+Steps: 3100     Time: 0.31         CPU Time: 10.8177s
+CFL: 0.489469 (in elmt 161)
+Steps: 3200     Time: 0.32         CPU Time: 10.7733s
+CFL: 0.782632 (in elmt 145)
+Steps: 3300     Time: 0.33         CPU Time: 10.8407s
+CFL: 0.777006 (in elmt 137)
+Steps: 3400     Time: 0.34         CPU Time: 10.8158s
+CFL: 0.652959 (in elmt 137)

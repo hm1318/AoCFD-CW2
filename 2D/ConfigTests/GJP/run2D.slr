@@ -3,12 +3,12 @@
 #SBATCH --ntasks=8
 
 # Request a *total* memory of 2 GB (across all tasks)
-#SBATCH --mem=2GB
+#SBATCH --mem=6GB
 
 # The maximum runtime of our job.
-#SBATCH --time=02:00:00
+#SBATCH --time=12:00:00
 
-#SBATCH --job-name=my2Drun-4.xml
+#SBATCH --job-name=my2Drun-4_GJP.xml
 
 #SBATCH --partition=long
 

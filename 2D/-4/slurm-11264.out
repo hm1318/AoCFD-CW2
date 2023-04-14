@@ -1,0 +1,4 @@
+Loading nektar++/5.2.0
+  Loading requirement: boost/1.74.0 fftw/3.3.6-pl2 hdf5/1.8.17 scotch/6.0.6
+    glu/2021-10-03 oce/0.18.3 qt/5.15.2 mesa/17.0.2 vtk/8.2.0
+slurmstepd-linux2: error: *** JOB 11264 ON linux2 CANCELLED AT 2023-04-07T20:24:00 ***

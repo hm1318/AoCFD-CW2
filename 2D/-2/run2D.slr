@@ -16,7 +16,7 @@
 #SBATCH --time=04:00:00
 
 # Give our job a name -- helpful if you submit multiple jobs to the queue.
-#SBATCH --job-name=my2Drun-4.xml
+#SBATCH --job-name=my2Drun-2.xml
 
 # The queue to submit our job to - run
 #   sinfo

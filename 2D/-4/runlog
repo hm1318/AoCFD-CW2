@@ -1,0 +1,100 @@
+=======================================================================
+	        EquationType: UnsteadyNavierStokes
+	        Session Name: s7055
+	        Spatial Dim.: 2
+	  Max SEM Exp. Order: 7
+	      Num. Processes: 2
+	      Expansion Dim.: 2
+	     Projection Type: Continuous Galerkin
+	 Advect. advancement: explicit
+	Diffuse. advancement: implicit
+	           Time Step: 0.0001
+	        No. of Steps: 100000
+	 Checkpoints (steps): 1000
+	    Integration Type: IMEX
+	    Splitting Scheme: Velocity correction (strong press. form)
+	          Dealiasing: spectral/hp
+	 GJP Stab. Impl.    : SemiImplicit
+	 GJP Stab. JumpScale: 1
+=======================================================================
+Initial Conditions:
+  - Field u: Uinfx
+  - Field v: Uinfy
+  - Field p: 0
+renaming "s7055_0.chk" -> "s7055_0.bak1.chk"
+Writing: "s7055_0.chk" (0.0854278s, XML)
+gs_setup: 252 unique labels shared
+   pairwise times (avg, min, max): 1.6075e-06 1.5984e-06 1.6166e-06
+   crystal router                : 1.5814e-06 1.5778e-06 1.585e-06
+   all reduce                    : 3.12115e-06 3.1161e-06 3.1262e-06
+   used all_to_all method: crystal router
+   handle bytes (avg, min, max): 18524 18524 18524
+   buffer bytes (avg, min, max): 8064 8064 8064
+gs_setup: 252 unique labels shared
+   pairwise times (avg, min, max): 1.48075e-06 1.4743e-06 1.4872e-06
+   crystal router                : 1.52445e-06 1.5202e-06 1.5287e-06
+   all reduce                    : 3.1135e-06 3.0969e-06 3.1301e-06
+   used all_to_all method: pairwise
+   handle bytes (avg, min, max): 6276 6276 6276
+   buffer bytes (avg, min, max): 4032 4032 4032
+gs_setup: 252 unique labels shared
+   pairwise times (avg, min, max): 1.50755e-06 1.5052e-06 1.5099e-06
+   crystal router                : 1.43705e-06 1.4325e-06 1.4416e-06
+   all reduce                    : 2.9464e-06 2.9291e-06 2.9637e-06
+   used all_to_all method: crystal router
+   handle bytes (avg, min, max): 18524 18524 18524
+   buffer bytes (avg, min, max): 8064 8064 8064
+gs_setup: 252 unique labels shared
+   pairwise times (avg, min, max): 1.5348e-06 1.5312e-06 1.5384e-06
+   crystal router                : 1.50255e-06 1.4966e-06 1.5085e-06
+   all reduce                    : 3.08785e-06 3.0782e-06 3.0975e-06
+   used all_to_all method: crystal router
+   handle bytes (avg, min, max): 18524 18524 18524
+   buffer bytes (avg, min, max): 8064 8064 8064
+Steps: 100      Time: 0.01         CPU Time: 39.4679s
+CFL: 0.70098 (in elmt 2)
+Steps: 200      Time: 0.02         CPU Time: 23.9506s
+CFL: 0.491348 (in elmt 393)
+Steps: 300      Time: 0.03         CPU Time: 23.9759s
+CFL: 0.545368 (in elmt 394)
+Steps: 400      Time: 0.04         CPU Time: 24.2997s
+CFL: 0.484003 (in elmt 1)
+Steps: 500      Time: 0.05         CPU Time: 24.3301s
+CFL: 0.570642 (in elmt 2)
+Steps: 600      Time: 0.06         CPU Time: 24.1938s
+CFL: 0.438976 (in elmt 3)
+Steps: 700      Time: 0.07         CPU Time: 24.638s 
+CFL: 0.614152 (in elmt 393)
+Steps: 800      Time: 0.08         CPU Time: 24.9961s
+CFL: 0.473876 (in elmt 395)
+Steps: 900      Time: 0.09         CPU Time: 24.8553s
+CFL: 0.666935 (in elmt 1)
+Steps: 1000     Time: 0.1          CPU Time: 24.8782s
+CFL: 0.495572 (in elmt 3)
+Total filters CPU Time:			     0.00564356s
+renaming "s7055_1.chk" -> "s7055_1.bak1.chk"
+Writing: "s7055_1.chk" (0.110507s, XML)
+Steps: 1100     Time: 0.11         CPU Time: 24.9146s
+CFL: 0.818925 (in elmt 393)
+Steps: 1200     Time: 0.12         CPU Time: 24.8537s
+CFL: 0.610875 (in elmt 394)
+Steps: 1300     Time: 0.13         CPU Time: 25.1727s
+CFL: 0.723322 (in elmt 1)
+Steps: 1400     Time: 0.14         CPU Time: 25.1201s
+CFL: 0.683998 (in elmt 2)
+Steps: 1500     Time: 0.15         CPU Time: 25.2202s
+CFL: 0.762212 (in elmt 393)
+Steps: 1600     Time: 0.16         CPU Time: 25.1545s
+CFL: 0.798693 (in elmt 394)
+Steps: 1700     Time: 0.17         CPU Time: 25.2152s
+CFL: 0.690068 (in elmt 392)
+Steps: 1800     Time: 0.18         CPU Time: 25.2568s
+CFL: 0.818063 (in elmt 1)
+Steps: 1900     Time: 0.19         CPU Time: 25.2744s
+CFL: 0.57989 (in elmt 3)
+Steps: 2000     Time: 0.2          CPU Time: 25.181s 
+CFL: 1.02487 (in elmt 393)
+Total filters CPU Time:			     0.00523453s
+renaming "s7055_2.chk" -> "s7055_2.bak1.chk"
+Writing: "s7055_2.chk" (0.111184s, XML)
+mpiexec: Forwarding signal 18 to job

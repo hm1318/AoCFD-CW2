@@ -22,6 +22,3 @@ INS=IncNavierStokesSolver
 # Run our solver with an input file located in the directory from where you
 # submit the job.
 mpiexec $INS s7055.xml session2d.xml &> runlog
-
-cd ../GJP
-sbatch run2D.slr

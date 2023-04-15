@@ -10,13 +10,13 @@
 #SBATCH --ntasks=8
 
 # Request a *total* memory of 2 GB (across all tasks)
-#SBATCH --mem=2GB
+#SBATCH --mem=4GB
 
 # The maximum runtime of our job.
-#SBATCH --time=04:00:00
+#SBATCH --time=20:00:00
 
 # Give our job a name -- helpful if you submit multiple jobs to the queue.
-#SBATCH --job-name=my2Drun-4.xml
+#SBATCH --job-name=my2Drun4.xml
 
 # The queue to submit our job to - run
 #   sinfo
@@ -36,11 +36,11 @@ INS=IncNavierStokesSolver
 
 # Run our solver with an input file located in the directory from where you
 # submit the job.
-mpiexec $INS s7055.xml session2d.xml &> runlog
+mpiexec $INS s7055.xml session2d_pre.xml &> runlog
 
-# Submit this file by running
-#   sbatch run.slr
-# Monitor the job queue by running
-#   squeue
+mv s7055.fld s7055.rst
 
+mpiexec $INS s7055.xml session2d_post.xml &> runlog
 
+cd ../6
+sbatch run2D.slr

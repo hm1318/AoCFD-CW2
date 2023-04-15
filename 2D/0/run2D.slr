@@ -13,7 +13,7 @@
 #SBATCH --mem=2GB
 
 # The maximum runtime of our job.
-#SBATCH --time=04:00:00
+#SBATCH --time=23:00:00
 
 # Give our job a name -- helpful if you submit multiple jobs to the queue.
 #SBATCH --job-name=my2Drun0.xml
@@ -44,3 +44,5 @@ mpiexec $INS s7055.xml session2d.xml &> runlog
 #   squeue
 
 
+cd ../2
+sbatch run2D.slr

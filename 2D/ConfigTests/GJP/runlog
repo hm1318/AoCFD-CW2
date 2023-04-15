@@ -1,0 +1,52 @@
+=======================================================================
+	        EquationType: UnsteadyNavierStokes
+	        Session Name: s7055
+	        Spatial Dim.: 2
+	  Max SEM Exp. Order: 7
+	      Num. Processes: 8
+	      Expansion Dim.: 2
+	     Projection Type: Continuous Galerkin
+	 Advect. advancement: explicit
+	Diffuse. advancement: implicit
+	           Time Step: 0.0001
+	        No. of Steps: 100000
+	 Checkpoints (steps): 1000
+	    Integration Type: IMEX
+	    Splitting Scheme: Velocity correction (strong press. form)
+	 GJP Stab. Impl.    : SemiImplicit
+	 GJP Stab. JumpScale: 1
+=======================================================================
+Initial Conditions:
+  - Field u: Uinfx
+  - Field v: Uinfy
+  - Field p: 0
+Writing: "s7055_0.chk" (0.27492s, XML)
+gs_setup: 1134 unique labels shared
+   pairwise times (avg, min, max): 0.0259012 0.0228023 0.0288004
+   crystal router                : 0.0199601 0.0196104 0.0200106
+   all reduce                    : 2.78206e-05 2.75928e-05 2.80644e-05
+   used all_to_all method: allreduce
+   handle bytes (avg, min, max): 13756 10228 16612
+   buffer bytes (avg, min, max): 18144 18144 18144
+gs_setup: 1134 unique labels shared
+   pairwise times (avg, min, max): 0.0294999 0.0268001 0.0319994
+   crystal router                : 0.0577003 0.0559996 0.0600024
+   all reduce                    : 0.0830099 0.08121 0.0844096
+   used all_to_all method: pairwise
+   handle bytes (avg, min, max): 7144 5364 8556
+   buffer bytes (avg, min, max): 4536 3360 5488
+gs_setup: 1134 unique labels shared
+   pairwise times (avg, min, max): 5.74478e-06 5.6164e-06 5.9153e-06
+   crystal router                : 1.42625e-05 1.39793e-05 1.45676e-05
+   all reduce                    : 2.49039e-05 2.48728e-05 2.49461e-05
+   used all_to_all method: pairwise
+   handle bytes (avg, min, max): 7144 5364 8556
+   buffer bytes (avg, min, max): 4536 3360 5488
+gs_setup: 1134 unique labels shared
+   pairwise times (avg, min, max): 6.39787e-06 6.2149e-06 6.5713e-06
+   crystal router                : 1.4424e-05 1.41214e-05 1.4707e-05
+   all reduce                    : 0.00283084 0.00283077 0.00283091
+   used all_to_all method: pairwise
+   handle bytes (avg, min, max): 7144 5364 8556
+   buffer bytes (avg, min, max): 4536 3360 5488
+mpiexec: Forwarding signal 18 to job

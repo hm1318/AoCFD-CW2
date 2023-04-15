@@ -6,7 +6,7 @@
 #SBATCH --mem=6GB
 
 # The maximum runtime of our job.
-#SBATCH --time=12:00:00
+#SBATCH --time=24:00:00
 
 #SBATCH --job-name=my2Drun-4_GJP.xml
 

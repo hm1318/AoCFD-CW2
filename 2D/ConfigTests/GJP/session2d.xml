@@ -13,10 +13,10 @@
             <I PROPERTY="Projection"        VALUE="Galerkin" />
             <!--I PROPERTY="GlobalSysSoln" VALUE="XxtMultiLevelStaticCond"/-->
             <I PROPERTY="TimeIntegrationMethod" VALUE="IMEXOrder2" />
-            <!--I PROPERTY="DEALIASING" VALUE="True" /-->
-            <I PROPERTY="SPECTRALHPDEALIASING" VALUE="True" />
-            <I PROPERTY="USEFFT" VALUE="FFTW"/-->
-            <I PROPERTY="GJPStabilisation" VALUE="SemiImplicit"/>
+            <!--I PROPERTY="DEALIASING" VALUE="True" />
+            <I PROPERTY="SPECTRALHPDEALIASING" VALUE="True" /-->
+	    <!--I PROPERTY="USEFFT" VALUE="FFTW"/-->
+	    <I PROPERTY="GJPStabilisation" VALUE="SemiImplicit"/>
         </SOLVERINFO>
 	
 	<GLOBALSYSSOLNINFO>

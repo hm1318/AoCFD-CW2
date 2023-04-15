@@ -31,11 +31,11 @@
             <I PROPERTY="EvolutionOperator" VALUE="Nonlinear" />
             <I PROPERTY="AdvectionForm" VALUE="Convective" />
             <I PROPERTY="Projection" VALUE="Galerkin" />
+            <!--I PROPERTY="GlobalSysSoln" VALUE="XxtMultiLevelStaticCond"/-->
             <I PROPERTY="TimeIntegrationMethod" VALUE="IMEXOrder2" />
-            <!--I PROPERTY="DEALIASING" VALUE="True" /-->
-            <I PROPERTY="SPECTRALHPDEALIASING" VALUE="True" />
+            <!--I PROPERTY="DEALIASING" VALUE="True" />
+            <I PROPERTY="SPECTRALHPDEALIASING" VALUE="True" /-->
             <I PROPERTY="SpectralVanishingViscosity" VALUE="DGKernel" />
-            <I PROPERTY="Driver" VALUE="Standard" />
             <!--I PROPERTY="SPECTRALDEALIASING" VALUE="True" />
             <I PROPERTY="SpectralVanishingViscosityHomo1D" VALUE="True" />
 	    <I PROPERTY="USEFFT" VALUE="FFTW"/-->
@@ -116,6 +116,28 @@
             <E VAR="p" VALUE="0" />
         </FUNCTION>
     </CONDITIONS>
+    <COLLECTIONS>
+        <OPERATOR TYPE="BwdTrans">
+            <ELEMENT TYPE="T" ORDER="*" IMPTYPE="MatrixFree" />
+            <ELEMENT TYPE="Q" ORDER="*" IMPTYPE="MatrixFree" />
+        </OPERATOR>
+        <OPERATOR TYPE="Helmholtz">
+            <ELEMENT TYPE="T" ORDER="*" IMPTYPE="MatrixFree" />
+            <ELEMENT TYPE="Q" ORDER="*" IMPTYPE="MatrixFree" />
+        </OPERATOR>
+        <OPERATOR TYPE="IProductWRTBase">
+            <ELEMENT TYPE="T" ORDER="*" IMPTYPE="SumFac" />
+            <ELEMENT TYPE="Q" ORDER="*" IMPTYPE="MatrixFree" />
+        </OPERATOR>
+        <OPERATOR TYPE="IProductWRTDerivBase">
+            <ELEMENT TYPE="T" ORDER="*" IMPTYPE="SumFac" />
+            <ELEMENT TYPE="Q" ORDER="*" IMPTYPE="MatrixFree" />
+        </OPERATOR>
+        <OPERATOR TYPE="PhysDeriv">
+            <ELEMENT TYPE="T" ORDER="*" IMPTYPE="MatrixFree" />
+            <ELEMENT TYPE="Q" ORDER="*" IMPTYPE="MatrixFree" />
+        </OPERATOR>
+    </COLLECTIONS>
     <Metadata>
         <Provenance>
             <GitBranch>refs/heads/master</GitBranch>
@@ -175,8 +197,8 @@
     </EXPANSIONS>
     <FILTERS>
         <FILTER TYPE="AeroForces">
-            <PARAM NAME="OutputFile">aeroForces-4</PARAM>
-            <PARAM NAME="OutputFrequency">20</PARAM>
+            <PARAM NAME="OutputFile">aeroForces-2</PARAM>
+            <PARAM NAME="OutputFrequency">50</PARAM>
             <PARAM NAME="Boundary">B[0]</PARAM>
         </FILTER>
     </FILTERS>

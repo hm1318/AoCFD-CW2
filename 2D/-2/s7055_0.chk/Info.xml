@@ -4,13 +4,14 @@
         <Provenance>
             <GitBranch></GitBranch>
             <GitSHA1>d4c1b145ce4fad32090695e64c7e135ea344a743</GitSHA1>
-            <Hostname>linux1</Hostname>
+            <Hostname>comet</Hostname>
             <NektarVersion>5.2.0</NektarVersion>
-            <Timestamp>06-Apr-2023 18:09:33</Timestamp>
+            <Timestamp>15-Apr-2023 16:25:48</Timestamp>
         </Provenance>
         <ChkFileNum>0</ChkFileNum>
         <Kinvis>3.3156498673740055e-06</Kinvis>
-        <SessionName0>s7055_xml/P0000000.xml</SessionName0>
+        <SessionName0>s7055.opt</SessionName0>
+        <SessionName1>s7055_xml/P0000000.xml</SessionName1>
         <Time>0</Time>
         <TimeStep>0.0001</TimeStep>
     </Metadata>

@@ -1,0 +1,47 @@
+=======================================================================
+	        EquationType: UnsteadyNavierStokes
+	        Session Name: s7055
+	        Spatial Dim.: 2
+	  Max SEM Exp. Order: 7
+	      Num. Processes: 8
+	      Expansion Dim.: 2
+	     Projection Type: Continuous Galerkin
+	 Advect. advancement: explicit
+	Diffuse. advancement: implicit
+	           Time Step: 0.0001
+	        No. of Steps: 100000
+	 Checkpoints (steps): 1000
+	    Integration Type: IMEX
+	    Splitting Scheme: Velocity correction (strong press. form)
+	          Dealiasing: spectral/hp
+	    Smoothing-SpecHP: SVV (spectral/hp DG Kernel (diff coeff = 1*Uh/p))
+=======================================================================
+Initial Conditions:
+  - Field u: Uinfx
+  - Field v: Uinfy
+  - Field p: 0
+renaming "s7055_0.chk" -> "s7055_0.bak0.chk"
+Writing: "s7055_0.chk" (0.103987s, XML)
+Steps: 100      Time: 0.01         CPU Time: 606.448s
+CFL: 0.521011 (in elmt 2)
+Steps: 200      Time: 0.02         CPU Time: 968.67s 
+CFL: 0.391572 (in elmt 201)
+Steps: 300      Time: 0.03         CPU Time: 296.523s
+CFL: 0.39176 (in elmt 201)
+Steps: 400      Time: 0.04         CPU Time: 233.348s
+CFL: 0.391594 (in elmt 201)
+Steps: 500      Time: 0.05         CPU Time: 251.998s
+CFL: 0.391398 (in elmt 201)
+Steps: 600      Time: 0.06         CPU Time: 319.367s
+CFL: 0.391211 (in elmt 201)
+Steps: 700      Time: 0.07         CPU Time: 289.437s
+CFL: 0.391022 (in elmt 201)
+Steps: 800      Time: 0.08         CPU Time: 331.461s
+CFL: 0.390825 (in elmt 201)
+Steps: 900      Time: 0.09         CPU Time: 274.802s
+CFL: 0.390621 (in elmt 201)
+Steps: 1000     Time: 0.1          CPU Time: 313.347s
+CFL: 0.390412 (in elmt 201)
+Total filters CPU Time:			     0.127942s 
+Writing: "s7055_1.chk" (0.0884748s, XML)
+mpiexec: Forwarding signal 18 to job

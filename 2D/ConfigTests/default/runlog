@@ -94,3 +94,2150 @@ Steps: 3300     Time: 0.33         CPU Time: 10.8407s
 CFL: 0.777006 (in elmt 137)
 Steps: 3400     Time: 0.34         CPU Time: 10.8158s
 CFL: 0.652959 (in elmt 137)
+Steps: 3500     Time: 0.35         CPU Time: 10.8684s
+CFL: 0.721856 (in elmt 152)
+Steps: 3600     Time: 0.36         CPU Time: 10.8696s
+CFL: 0.524403 (in elmt 169)
+Steps: 3700     Time: 0.37         CPU Time: 10.8418s
+CFL: 0.767528 (in elmt 145)
+Steps: 3800     Time: 0.38         CPU Time: 10.8056s
+CFL: 0.679773 (in elmt 137)
+Steps: 3900     Time: 0.39         CPU Time: 10.7567s
+CFL: 0.603586 (in elmt 145)
+Steps: 4000     Time: 0.4          CPU Time: 10.8592s
+CFL: 0.562841 (in elmt 129)
+Total filters CPU Time:			     0.00238161s
+Writing: "s7055_4.chk" (0.043118s, XML)
+Steps: 4100     Time: 0.41         CPU Time: 10.8028s
+CFL: 0.454609 (in elmt 129)
+Steps: 4200     Time: 0.42         CPU Time: 10.8855s
+CFL: 0.769146 (in elmt 129)
+Steps: 4300     Time: 0.43         CPU Time: 10.8164s
+CFL: 0.44677 (in elmt 122)
+Steps: 4400     Time: 0.44         CPU Time: 10.7988s
+CFL: 0.490443 (in elmt 122)
+Steps: 4500     Time: 0.45         CPU Time: 10.83s  
+CFL: 0.432169 (in elmt 145)
+Steps: 4600     Time: 0.46         CPU Time: 10.8337s
+CFL: 0.389172 (in elmt 160)
+Steps: 4700     Time: 0.47         CPU Time: 10.7968s
+CFL: 0.38647 (in elmt 201)
+Steps: 4800     Time: 0.48         CPU Time: 10.7534s
+CFL: 0.41964 (in elmt 145)
+Steps: 4900     Time: 0.49         CPU Time: 10.8856s
+CFL: 0.38805 (in elmt 201)
+Steps: 5000     Time: 0.5          CPU Time: 10.7869s
+CFL: 0.38665 (in elmt 201)
+Total filters CPU Time:			     0.00237857s
+Writing: "s7055_5.chk" (0.0401527s, XML)
+Steps: 5100     Time: 0.51         CPU Time: 10.8413s
+CFL: 0.412129 (in elmt 161)
+Steps: 5200     Time: 0.52         CPU Time: 10.8232s
+CFL: 0.387617 (in elmt 201)
+Steps: 5300     Time: 0.53         CPU Time: 10.7333s
+CFL: 0.402391 (in elmt 168)
+Steps: 5400     Time: 0.54         CPU Time: 10.8385s
+CFL: 0.41162 (in elmt 161)
+Steps: 5500     Time: 0.55         CPU Time: 10.7921s
+CFL: 0.387127 (in elmt 201)
+Steps: 5600     Time: 0.56         CPU Time: 10.8053s
+CFL: 0.399486 (in elmt 168)
+Steps: 5700     Time: 0.57         CPU Time: 10.85s  
+CFL: 0.38841 (in elmt 201)
+Steps: 5800     Time: 0.58         CPU Time: 10.7934s
+CFL: 0.386778 (in elmt 201)
+Steps: 5900     Time: 0.59         CPU Time: 10.8391s
+CFL: 0.401861 (in elmt 160)
+Steps: 6000     Time: 0.6          CPU Time: 10.8692s
+CFL: 0.387429 (in elmt 201)
+Total filters CPU Time:			     0.00231625s
+Writing: "s7055_6.chk" (0.0404824s, XML)
+Steps: 6100     Time: 0.61         CPU Time: 10.8873s
+CFL: 0.42902 (in elmt 160)
+Steps: 6200     Time: 0.62         CPU Time: 10.8531s
+CFL: 0.388686 (in elmt 201)
+Steps: 6300     Time: 0.63         CPU Time: 10.8734s
+CFL: 0.386595 (in elmt 201)
+Steps: 6400     Time: 0.64         CPU Time: 10.9141s
+CFL: 0.441538 (in elmt 129)
+Steps: 6500     Time: 0.65         CPU Time: 10.9251s
+CFL: 0.424632 (in elmt 129)
+Steps: 6600     Time: 0.66         CPU Time: 10.8474s
+CFL: 0.39629 (in elmt 168)
+Steps: 6700     Time: 0.67         CPU Time: 10.8658s
+CFL: 0.407969 (in elmt 161)
+Steps: 6800     Time: 0.68         CPU Time: 10.9144s
+CFL: 0.387318 (in elmt 201)
+Steps: 6900     Time: 0.69         CPU Time: 10.6883s
+CFL: 0.41773 (in elmt 168)
+Steps: 7000     Time: 0.7          CPU Time: 10.9005s
+CFL: 0.408443 (in elmt 161)
+Total filters CPU Time:			     0.00280937s
+Writing: "s7055_7.chk" (0.0410166s, XML)
+Steps: 7100     Time: 0.71         CPU Time: 10.8583s
+CFL: 0.386713 (in elmt 201)
+Steps: 7200     Time: 0.72         CPU Time: 10.8596s
+CFL: 0.391311 (in elmt 160)
+Steps: 7300     Time: 0.73         CPU Time: 10.8366s
+CFL: 0.388313 (in elmt 201)
+Steps: 7400     Time: 0.74         CPU Time: 10.8078s
+CFL: 0.387419 (in elmt 201)
+Steps: 7500     Time: 0.75         CPU Time: 10.8461s
+CFL: 0.401744 (in elmt 160)
+Steps: 7600     Time: 0.76         CPU Time: 10.8614s
+CFL: 0.395466 (in elmt 161)
+Steps: 7700     Time: 0.77         CPU Time: 10.8288s
+CFL: 0.431782 (in elmt 160)
+Steps: 7800     Time: 0.78         CPU Time: 10.8606s
+CFL: 0.389204 (in elmt 201)
+Steps: 7900     Time: 0.79         CPU Time: 10.8108s
+CFL: 0.38675 (in elmt 201)
+Steps: 8000     Time: 0.8          CPU Time: 10.8256s
+CFL: 0.43541 (in elmt 161)
+Total filters CPU Time:			     0.00247244s
+Writing: "s7055_8.chk" (0.0425237s, XML)
+Steps: 8100     Time: 0.81         CPU Time: 10.9131s
+CFL: 0.387979 (in elmt 201)
+Steps: 8200     Time: 0.82         CPU Time: 10.8069s
+CFL: 0.404548 (in elmt 168)
+Steps: 8300     Time: 0.83         CPU Time: 10.8528s
+CFL: 0.411947 (in elmt 161)
+Steps: 8400     Time: 0.84         CPU Time: 10.864s 
+CFL: 0.38726 (in elmt 201)
+Steps: 8500     Time: 0.85         CPU Time: 10.8056s
+CFL: 0.424203 (in elmt 168)
+Steps: 8600     Time: 0.86         CPU Time: 10.844s 
+CFL: 0.412609 (in elmt 161)
+Steps: 8700     Time: 0.87         CPU Time: 10.8597s
+CFL: 0.38704 (in elmt 201)
+Steps: 8800     Time: 0.88         CPU Time: 10.842s 
+CFL: 0.393007 (in elmt 160)
+Steps: 8900     Time: 0.89         CPU Time: 10.9275s
+CFL: 0.389136 (in elmt 161)
+Steps: 9000     Time: 0.9          CPU Time: 10.9081s
+CFL: 0.398994 (in elmt 153)
+Total filters CPU Time:			     0.00289473s
+Writing: "s7055_9.chk" (0.0405536s, XML)
+Steps: 9100     Time: 0.91         CPU Time: 10.9327s
+CFL: 0.403671 (in elmt 160)
+Steps: 9200     Time: 0.92         CPU Time: 10.9267s
+CFL: 0.405675 (in elmt 161)
+Steps: 9300     Time: 0.93         CPU Time: 11.0153s
+CFL: 0.439358 (in elmt 153)
+Steps: 9400     Time: 0.94         CPU Time: 11.1245s
+CFL: 0.389328 (in elmt 201)
+Steps: 9500     Time: 0.95         CPU Time: 11.136s 
+CFL: 0.406541 (in elmt 129)
+Steps: 9600     Time: 0.96         CPU Time: 11.0959s
+CFL: 0.441172 (in elmt 161)
+Steps: 9700     Time: 0.97         CPU Time: 11.1277s
+CFL: 0.388361 (in elmt 201)
+Steps: 9800     Time: 0.98         CPU Time: 11.1803s
+CFL: 0.398623 (in elmt 168)
+Steps: 9900     Time: 0.99         CPU Time: 11.1543s
+CFL: 0.408717 (in elmt 153)
+Steps: 10000    Time: 1            CPU Time: 11.1126s
+CFL: 0.387614 (in elmt 201)
+Total filters CPU Time:			     0.00304206s
+Writing: "s7055_10.chk" (0.0427905s, XML)
+Steps: 10100    Time: 1.01         CPU Time: 11.1103s
+CFL: 0.425476 (in elmt 168)
+Steps: 10200    Time: 1.02         CPU Time: 11.1041s
+CFL: 0.414992 (in elmt 161)
+Steps: 10300    Time: 1.03         CPU Time: 11.0468s
+CFL: 0.387283 (in elmt 201)
+Steps: 10400    Time: 1.04         CPU Time: 11.05s  
+CFL: 0.400503 (in elmt 168)
+Steps: 10500    Time: 1.05         CPU Time: 11.0804s
+CFL: 0.466595 (in elmt 129)
+Steps: 10600    Time: 1.06         CPU Time: 11.0045s
+CFL: 0.387897 (in elmt 201)
+Steps: 10700    Time: 1.07         CPU Time: 10.8761s
+CFL: 0.404736 (in elmt 160)
+Steps: 10800    Time: 1.08         CPU Time: 10.8402s
+CFL: 0.405806 (in elmt 161)
+Steps: 10900    Time: 1.09         CPU Time: 10.9s   
+CFL: 0.439753 (in elmt 153)
+Steps: 11000    Time: 1.1          CPU Time: 10.8222s
+CFL: 0.389831 (in elmt 201)
+Total filters CPU Time:			     0.00249483s
+Writing: "s7055_11.chk" (0.0387078s, XML)
+Steps: 11100    Time: 1.11         CPU Time: 10.7784s
+CFL: 0.387413 (in elmt 201)
+Steps: 11200    Time: 1.12         CPU Time: 10.8114s
+CFL: 0.442304 (in elmt 161)
+Steps: 11300    Time: 1.13         CPU Time: 10.9179s
+CFL: 0.389112 (in elmt 201)
+Steps: 11400    Time: 1.14         CPU Time: 10.7857s
+CFL: 0.393639 (in elmt 168)
+Steps: 11500    Time: 1.15         CPU Time: 10.8697s
+CFL: 0.416022 (in elmt 161)
+Steps: 11600    Time: 1.16         CPU Time: 10.8584s
+CFL: 0.387925 (in elmt 201)
+Steps: 11700    Time: 1.17         CPU Time: 10.8571s
+CFL: 0.42464 (in elmt 168)
+Steps: 11800    Time: 1.18         CPU Time: 10.8599s
+CFL: 0.418107 (in elmt 161)
+Steps: 11900    Time: 1.19         CPU Time: 10.9212s
+CFL: 0.387464 (in elmt 201)
+Steps: 12000    Time: 1.2          CPU Time: 10.8594s
+CFL: 0.416907 (in elmt 168)
+Total filters CPU Time:			     0.00256891s
+Writing: "s7055_12.chk" (0.0405372s, XML)
+Steps: 12100    Time: 1.21         CPU Time: 10.8513s
+CFL: 0.510727 (in elmt 129)
+Steps: 12200    Time: 1.22         CPU Time: 10.7856s
+CFL: 0.416743 (in elmt 137)
+Steps: 12300    Time: 1.23         CPU Time: 10.8511s
+CFL: 0.405581 (in elmt 160)
+Steps: 12400    Time: 1.24         CPU Time: 10.8668s
+CFL: 0.406369 (in elmt 161)
+Steps: 12500    Time: 1.25         CPU Time: 10.9042s
+CFL: 0.434562 (in elmt 153)
+Steps: 12600    Time: 1.26         CPU Time: 10.9733s
+CFL: 0.401731 (in elmt 160)
+Steps: 12700    Time: 1.27         CPU Time: 10.9179s
+CFL: 0.390972 (in elmt 161)
+Steps: 12800    Time: 1.28         CPU Time: 10.9051s
+CFL: 0.44254 (in elmt 160)
+Steps: 12900    Time: 1.29         CPU Time: 10.9797s
+CFL: 0.389599 (in elmt 201)
+Steps: 13000    Time: 1.3          CPU Time: 10.9544s
+CFL: 0.396724 (in elmt 129)
+Total filters CPU Time:			     0.00268717s
+Writing: "s7055_13.chk" (0.0424639s, XML)
+Steps: 13100    Time: 1.31         CPU Time: 10.8709s
+CFL: 0.432191 (in elmt 161)
+Steps: 13200    Time: 1.32         CPU Time: 10.9532s
+CFL: 0.388498 (in elmt 201)
+Steps: 13300    Time: 1.33         CPU Time: 10.9221s
+CFL: 0.415458 (in elmt 168)
+Steps: 13400    Time: 1.34         CPU Time: 10.8528s
+CFL: 0.419585 (in elmt 161)
+Steps: 13500    Time: 1.35         CPU Time: 10.8584s
+CFL: 0.388058 (in elmt 201)
+Steps: 13600    Time: 1.36         CPU Time: 10.9291s
+CFL: 0.424917 (in elmt 168)
+Steps: 13700    Time: 1.37         CPU Time: 10.9791s
+CFL: 0.410835 (in elmt 161)
+Steps: 13800    Time: 1.38         CPU Time: 10.8622s
+CFL: 0.387926 (in elmt 201)
+Steps: 13900    Time: 1.39         CPU Time: 10.6737s
+CFL: 0.394476 (in elmt 160)
+Steps: 14000    Time: 1.4          CPU Time: 10.8456s
+CFL: 0.393786 (in elmt 161)
+Total filters CPU Time:			     0.00234982s
+Writing: "s7055_14.chk" (0.0419998s, XML)
+Steps: 14100    Time: 1.41         CPU Time: 10.8666s
+CFL: 0.407814 (in elmt 153)
+Steps: 14200    Time: 1.42         CPU Time: 10.8251s
+CFL: 0.412242 (in elmt 160)
+Steps: 14300    Time: 1.43         CPU Time: 10.805s 
+CFL: 0.401876 (in elmt 161)
+Steps: 14400    Time: 1.44         CPU Time: 10.8251s
+CFL: 0.439116 (in elmt 160)
+Steps: 14500    Time: 1.45         CPU Time: 10.8291s
+CFL: 0.390312 (in elmt 201)
+Steps: 14600    Time: 1.46         CPU Time: 10.8448s
+CFL: 0.406285 (in elmt 129)
+Steps: 14700    Time: 1.47         CPU Time: 10.8658s
+CFL: 0.444824 (in elmt 161)
+Steps: 14800    Time: 1.48         CPU Time: 10.8141s
+CFL: 0.389125 (in elmt 201)
+Steps: 14900    Time: 1.49         CPU Time: 10.8981s
+CFL: 0.397715 (in elmt 168)
+Steps: 15000    Time: 1.5          CPU Time: 10.8293s
+CFL: 0.418417 (in elmt 153)
+Total filters CPU Time:			     0.00235163s
+Writing: "s7055_15.chk" (0.0396348s, XML)
+Steps: 15100    Time: 1.51         CPU Time: 10.8249s
+CFL: 0.388335 (in elmt 201)
+Steps: 15200    Time: 1.52         CPU Time: 10.7799s
+CFL: 0.430647 (in elmt 168)
+Steps: 15300    Time: 1.53         CPU Time: 10.9057s
+CFL: 0.426024 (in elmt 161)
+Steps: 15400    Time: 1.54         CPU Time: 10.7551s
+CFL: 0.387976 (in elmt 201)
+Steps: 15500    Time: 1.55         CPU Time: 10.755s 
+CFL: 0.414894 (in elmt 168)
+Steps: 15600    Time: 1.56         CPU Time: 10.7582s
+CFL: 0.468819 (in elmt 129)
+Steps: 15700    Time: 1.57         CPU Time: 10.7962s
+CFL: 0.388568 (in elmt 201)
+Steps: 15800    Time: 1.58         CPU Time: 10.7492s
+CFL: 0.409732 (in elmt 160)
+Steps: 15900    Time: 1.59         CPU Time: 10.7851s
+CFL: 0.403282 (in elmt 161)
+Steps: 16000    Time: 1.6          CPU Time: 10.7608s
+CFL: 0.456753 (in elmt 129)
+Total filters CPU Time:			     0.00253617s
+Writing: "s7055_16.chk" (0.0415433s, XML)
+Steps: 16100    Time: 1.61         CPU Time: 10.7468s
+CFL: 0.40261 (in elmt 160)
+Steps: 16200    Time: 1.62         CPU Time: 10.6535s
+CFL: 0.393203 (in elmt 161)
+Steps: 16300    Time: 1.63         CPU Time: 10.7038s
+CFL: 0.444007 (in elmt 160)
+Steps: 16400    Time: 1.64         CPU Time: 10.6985s
+CFL: 0.389988 (in elmt 201)
+Steps: 16500    Time: 1.65         CPU Time: 10.6416s
+CFL: 0.388511 (in elmt 201)
+Steps: 16600    Time: 1.66         CPU Time: 10.6196s
+CFL: 0.427707 (in elmt 161)
+Steps: 16700    Time: 1.67         CPU Time: 10.6163s
+CFL: 0.389103 (in elmt 201)
+Steps: 16800    Time: 1.68         CPU Time: 10.6384s
+CFL: 0.421317 (in elmt 168)
+Steps: 16900    Time: 1.69         CPU Time: 10.6274s
+CFL: 0.428789 (in elmt 161)
+Steps: 17000    Time: 1.7          CPU Time: 10.6254s
+CFL: 0.388422 (in elmt 201)
+Total filters CPU Time:			     0.00231817s
+Writing: "s7055_17.chk" (0.0395022s, XML)
+Steps: 17100    Time: 1.71         CPU Time: 10.6466s
+CFL: 0.426894 (in elmt 168)
+Steps: 17200    Time: 1.72         CPU Time: 10.6792s
+CFL: 0.417477 (in elmt 161)
+Steps: 17300    Time: 1.73         CPU Time: 10.6479s
+CFL: 0.388426 (in elmt 201)
+Steps: 17400    Time: 1.74         CPU Time: 10.6751s
+CFL: 0.394709 (in elmt 168)
+Steps: 17500    Time: 1.75         CPU Time: 10.7358s
+CFL: 0.39501 (in elmt 161)
+Steps: 17600    Time: 1.76         CPU Time: 10.6832s
+CFL: 0.413422 (in elmt 153)
+Steps: 17700    Time: 1.77         CPU Time: 10.778s 
+CFL: 0.413751 (in elmt 160)
+Steps: 17800    Time: 1.78         CPU Time: 10.6853s
+CFL: 0.407645 (in elmt 129)
+Steps: 17900    Time: 1.79         CPU Time: 10.7179s
+CFL: 0.439171 (in elmt 160)
+Steps: 18000    Time: 1.8          CPU Time: 10.7496s
+CFL: 0.390601 (in elmt 201)
+Total filters CPU Time:			     0.00305558s
+Writing: "s7055_18.chk" (0.0406517s, XML)
+Steps: 18100    Time: 1.81         CPU Time: 10.7738s
+CFL: 0.388376 (in elmt 201)
+Steps: 18200    Time: 1.82         CPU Time: 10.7718s
+CFL: 0.441193 (in elmt 153)
+Steps: 18300    Time: 1.83         CPU Time: 10.7465s
+CFL: 0.38969 (in elmt 201)
+Steps: 18400    Time: 1.84         CPU Time: 10.6414s
+CFL: 0.40107 (in elmt 168)
+Steps: 18500    Time: 1.85         CPU Time: 10.7091s
+CFL: 0.422674 (in elmt 153)
+Steps: 18600    Time: 1.86         CPU Time: 10.7066s
+CFL: 0.388715 (in elmt 201)
+Steps: 18700    Time: 1.87         CPU Time: 10.6648s
+CFL: 0.428479 (in elmt 168)
+Steps: 18800    Time: 1.88         CPU Time: 10.7128s
+CFL: 0.561985 (in elmt 129)
+Steps: 18900    Time: 1.89         CPU Time: 10.6956s
+CFL: 0.388609 (in elmt 201)
+Steps: 19000    Time: 1.9          CPU Time: 10.6299s
+CFL: 0.416637 (in elmt 168)
+Total filters CPU Time:			     0.00228959s
+Writing: "s7055_19.chk" (0.040506s, XML)
+Steps: 19100    Time: 1.91         CPU Time: 10.6377s
+CFL: 0.394897 (in elmt 161)
+Steps: 19200    Time: 1.92         CPU Time: 10.6507s
+CFL: 0.388532 (in elmt 201)
+Steps: 19300    Time: 1.93         CPU Time: 10.6827s
+CFL: 0.409855 (in elmt 160)
+Steps: 19400    Time: 1.94         CPU Time: 10.6516s
+CFL: 0.395178 (in elmt 161)
+Steps: 19500    Time: 1.95         CPU Time: 10.6724s
+CFL: 0.410855 (in elmt 153)
+Steps: 19600    Time: 1.96         CPU Time: 10.7783s
+CFL: 0.405726 (in elmt 160)
+Steps: 19700    Time: 1.97         CPU Time: 10.7289s
+CFL: 0.413816 (in elmt 129)
+Steps: 19800    Time: 1.98         CPU Time: 10.6598s
+CFL: 0.455196 (in elmt 153)
+Steps: 19900    Time: 1.99         CPU Time: 10.7328s
+CFL: 0.390328 (in elmt 201)
+Steps: 20000    Time: 2            CPU Time: 10.6598s
+CFL: 0.388251 (in elmt 201)
+Total filters CPU Time:			     0.00230439s
+Writing: "s7055_20.chk" (0.0413425s, XML)
+Steps: 20100    Time: 2.01         CPU Time: 10.6537s
+CFL: 0.436681 (in elmt 153)
+Steps: 20200    Time: 2.02         CPU Time: 10.6796s
+CFL: 0.38925 (in elmt 201)
+Steps: 20300    Time: 2.03         CPU Time: 10.663s 
+CFL: 0.41705 (in elmt 168)
+Steps: 20400    Time: 2.04         CPU Time: 10.6367s
+CFL: 0.496375 (in elmt 129)
+Steps: 20500    Time: 2.05         CPU Time: 10.6779s
+CFL: 0.44058 (in elmt 137)
+Steps: 20600    Time: 2.06         CPU Time: 10.6399s
+CFL: 0.433328 (in elmt 168)
+Steps: 20700    Time: 2.07         CPU Time: 10.6964s
+CFL: 0.42791 (in elmt 161)
+Steps: 20800    Time: 2.08         CPU Time: 10.7421s
+CFL: 0.388452 (in elmt 201)
+Steps: 20900    Time: 2.09         CPU Time: 10.7688s
+CFL: 0.410826 (in elmt 168)
+Steps: 21000    Time: 2.1          CPU Time: 10.7411s
+CFL: 0.390556 (in elmt 201)
+Total filters CPU Time:			     0.00246867s
+Writing: "s7055_21.chk" (0.0395873s, XML)
+Steps: 21100    Time: 2.11         CPU Time: 10.7502s
+CFL: 0.388481 (in elmt 201)
+Steps: 21200    Time: 2.12         CPU Time: 10.8969s
+CFL: 0.416534 (in elmt 160)
+Steps: 21300    Time: 2.13         CPU Time: 10.9046s
+CFL: 0.403383 (in elmt 161)
+Steps: 21400    Time: 2.14         CPU Time: 10.8036s
+CFL: 0.430796 (in elmt 145)
+Steps: 21500    Time: 2.15         CPU Time: 10.8247s
+CFL: 0.405152 (in elmt 160)
+Steps: 21600    Time: 2.16         CPU Time: 10.8569s
+CFL: 0.404162 (in elmt 161)
+Steps: 21700    Time: 2.17         CPU Time: 10.8317s
+CFL: 0.447069 (in elmt 153)
+Steps: 21800    Time: 2.18         CPU Time: 10.8827s
+CFL: 0.390068 (in elmt 201)
+Steps: 21900    Time: 2.19         CPU Time: 10.8678s
+CFL: 0.388079 (in elmt 201)
+Steps: 22000    Time: 2.2          CPU Time: 10.8574s
+CFL: 0.436159 (in elmt 161)
+Total filters CPU Time:			     0.00231751s
+Writing: "s7055_22.chk" (0.039301s, XML)
+Steps: 22100    Time: 2.21         CPU Time: 10.9255s
+CFL: 0.389132 (in elmt 201)
+Steps: 22200    Time: 2.22         CPU Time: 11.0733s
+CFL: 0.414542 (in elmt 168)
+Steps: 22300    Time: 2.23         CPU Time: 11.0932s
+CFL: 0.424503 (in elmt 161)
+Steps: 22400    Time: 2.24         CPU Time: 11.0713s
+CFL: 0.388526 (in elmt 201)
+Steps: 22500    Time: 2.25         CPU Time: 11.0936s
+CFL: 0.43168 (in elmt 168)
+Steps: 22600    Time: 2.26         CPU Time: 11.0885s
+CFL: 0.423125 (in elmt 161)
+Steps: 22700    Time: 2.27         CPU Time: 11.026s 
+CFL: 0.387989 (in elmt 201)
+Steps: 22800    Time: 2.28         CPU Time: 10.9592s
+CFL: 0.41331 (in elmt 168)
+Steps: 22900    Time: 2.29         CPU Time: 11.0253s
+CFL: 0.390425 (in elmt 201)
+Steps: 23000    Time: 2.3          CPU Time: 11.0982s
+CFL: 0.388234 (in elmt 201)
+Total filters CPU Time:			     0.00246886s
+Writing: "s7055_23.chk" (0.0410971s, XML)
+Steps: 23100    Time: 2.31         CPU Time: 11.0959s
+CFL: 0.419182 (in elmt 160)
+Steps: 23200    Time: 2.32         CPU Time: 11.1214s
+CFL: 0.408831 (in elmt 161)
+Steps: 23300    Time: 2.33         CPU Time: 11.0905s
+CFL: 0.427106 (in elmt 153)
+Steps: 23400    Time: 2.34         CPU Time: 11.0352s
+CFL: 0.413978 (in elmt 160)
+Steps: 23500    Time: 2.35         CPU Time: 11.0773s
+CFL: 0.411108 (in elmt 161)
+Steps: 23600    Time: 2.36         CPU Time: 11.0029s
+CFL: 0.450482 (in elmt 160)
+Steps: 23700    Time: 2.37         CPU Time: 11.0377s
+CFL: 0.389706 (in elmt 201)
+Steps: 23800    Time: 2.38         CPU Time: 11.0684s
+CFL: 0.387725 (in elmt 201)
+Steps: 23900    Time: 2.39         CPU Time: 11.074s 
+CFL: 0.453874 (in elmt 161)
+Steps: 24000    Time: 2.4          CPU Time: 11.0623s
+CFL: 0.38902 (in elmt 201)
+Total filters CPU Time:			     0.0023782s
+Writing: "s7055_24.chk" (0.040869s, XML)
+Steps: 24100    Time: 2.41         CPU Time: 11.0808s
+CFL: 0.412496 (in elmt 137)
+Steps: 24200    Time: 2.42         CPU Time: 11.0492s
+CFL: 0.428782 (in elmt 161)
+Steps: 24300    Time: 2.43         CPU Time: 11.0254s
+CFL: 0.408531 (in elmt 393)
+Steps: 24400    Time: 2.44         CPU Time: 11.0581s
+CFL: 0.480149 (in elmt 393)
+Steps: 24500    Time: 2.45         CPU Time: 11.1077s
+CFL: 0.52399 (in elmt 393)
+Steps: 24600    Time: 2.46         CPU Time: 11.1097s
+CFL: 0.520567 (in elmt 393)
+Steps: 24700    Time: 2.47         CPU Time: 11.0797s
+CFL: 0.473156 (in elmt 393)
+Steps: 24800    Time: 2.48         CPU Time: 11.1331s
+CFL: 0.418054 (in elmt 161)
+Steps: 24900    Time: 2.49         CPU Time: 11.0392s
+CFL: 0.387626 (in elmt 201)
+Steps: 25000    Time: 2.5          CPU Time: 11.0572s
+CFL: 0.404366 (in elmt 160)
+Total filters CPU Time:			     0.00260138s
+Writing: "s7055_25.chk" (0.0412421s, XML)
+Steps: 25100    Time: 2.51         CPU Time: 11.1446s
+CFL: 0.388954 (in elmt 201)
+Steps: 25200    Time: 2.52         CPU Time: 11.1504s
+CFL: 0.390774 (in elmt 169)
+Steps: 25300    Time: 2.53         CPU Time: 11.1844s
+CFL: 0.419201 (in elmt 160)
+Steps: 25400    Time: 2.54         CPU Time: 11.2025s
+CFL: 0.406255 (in elmt 161)
+Steps: 25500    Time: 2.55         CPU Time: 11.1489s
+CFL: 0.438053 (in elmt 145)
+Steps: 25600    Time: 2.56         CPU Time: 11.1554s
+CFL: 0.39861 (in elmt 160)
+Steps: 25700    Time: 2.57         CPU Time: 11.1467s
+CFL: 0.401462 (in elmt 161)
+Steps: 25800    Time: 2.58         CPU Time: 11.0873s
+CFL: 0.450937 (in elmt 153)
+Steps: 25900    Time: 2.59         CPU Time: 11.16s  
+CFL: 0.388764 (in elmt 201)
+Steps: 26000    Time: 2.6          CPU Time: 11.1131s
+CFL: 0.387027 (in elmt 201)
+Total filters CPU Time:			     0.00389707s
+Writing: "s7055_26.chk" (0.0514308s, XML)
+Steps: 26100    Time: 2.61         CPU Time: 11.1012s
+CFL: 0.43719 (in elmt 161)
+Steps: 26200    Time: 2.62         CPU Time: 11.0887s
+CFL: 0.388024 (in elmt 201)
+Steps: 26300    Time: 2.63         CPU Time: 11.1219s
+CFL: 0.413504 (in elmt 168)
+Steps: 26400    Time: 2.64         CPU Time: 11.1143s
+CFL: 0.430815 (in elmt 161)
+Steps: 26500    Time: 2.65         CPU Time: 11.1507s
+CFL: 0.38756 (in elmt 201)
+Steps: 26600    Time: 2.66         CPU Time: 11.097s 
+CFL: 0.426998 (in elmt 168)
+Steps: 26700    Time: 2.67         CPU Time: 11.0738s
+CFL: 0.428317 (in elmt 161)
+Steps: 26800    Time: 2.68         CPU Time: 11.0421s
+CFL: 0.483863 (in elmt 129)
+Steps: 26900    Time: 2.69         CPU Time: 11.0404s
+CFL: 0.408814 (in elmt 168)
+Steps: 27000    Time: 2.7          CPU Time: 11.0256s
+CFL: 0.389053 (in elmt 201)
+Total filters CPU Time:			     0.00233077s
+Writing: "s7055_27.chk" (0.0393134s, XML)
+Steps: 27100    Time: 2.71         CPU Time: 11.0534s
+CFL: 0.401588 (in elmt 129)
+Steps: 27200    Time: 2.72         CPU Time: 11.077s 
+CFL: 0.411427 (in elmt 160)
+Steps: 27300    Time: 2.73         CPU Time: 11.028s 
+CFL: 0.409157 (in elmt 161)
+Steps: 27400    Time: 2.74         CPU Time: 11.0049s
+CFL: 0.443457 (in elmt 153)
+Steps: 27500    Time: 2.75         CPU Time: 11.0127s
+CFL: 0.395943 (in elmt 160)
+Steps: 27600    Time: 2.76         CPU Time: 11.0277s
+CFL: 0.39784 (in elmt 161)
+Steps: 27700    Time: 2.77         CPU Time: 11.1158s
+CFL: 0.442727 (in elmt 153)
+Steps: 27800    Time: 2.78         CPU Time: 11.0725s
+CFL: 0.418556 (in elmt 137)
+Steps: 27900    Time: 2.79         CPU Time: 11.0604s
+CFL: 0.386968 (in elmt 201)
+Steps: 28000    Time: 2.8          CPU Time: 10.9102s
+CFL: 0.432925 (in elmt 161)
+Total filters CPU Time:			     0.00232921s
+Writing: "s7055_28.chk" (0.0417258s, XML)
+Steps: 28100    Time: 2.81         CPU Time: 11.0295s
+CFL: 0.388362 (in elmt 201)
+Steps: 28200    Time: 2.82         CPU Time: 11.0018s
+CFL: 0.411018 (in elmt 168)
+Steps: 28300    Time: 2.83         CPU Time: 10.9513s
+CFL: 0.416184 (in elmt 161)
+Steps: 28400    Time: 2.84         CPU Time: 11.0219s
+CFL: 0.387492 (in elmt 201)
+Steps: 28500    Time: 2.85         CPU Time: 10.973s 
+CFL: 0.426021 (in elmt 168)
+Steps: 28600    Time: 2.86         CPU Time: 11.0166s
+CFL: 0.412401 (in elmt 161)
+Steps: 28700    Time: 2.87         CPU Time: 11.0802s
+CFL: 0.38723 (in elmt 201)
+Steps: 28800    Time: 2.88         CPU Time: 10.9958s
+CFL: 0.402167 (in elmt 168)
+Steps: 28900    Time: 2.89         CPU Time: 11.0656s
+CFL: 0.38909 (in elmt 201)
+Steps: 29000    Time: 2.9          CPU Time: 11.0972s
+CFL: 0.387639 (in elmt 201)
+Total filters CPU Time:			     0.00254325s
+Writing: "s7055_29.chk" (0.043428s, XML)
+Steps: 29100    Time: 2.91         CPU Time: 11.1165s
+CFL: 0.411132 (in elmt 160)
+Steps: 29200    Time: 2.92         CPU Time: 11.0934s
+CFL: 0.411919 (in elmt 393)
+Steps: 29300    Time: 2.93         CPU Time: 11.07s  
+CFL: 0.43712 (in elmt 153)
+Steps: 29400    Time: 2.94         CPU Time: 11.0859s
+CFL: 0.396375 (in elmt 160)
+Steps: 29500    Time: 2.95         CPU Time: 11.0695s
+CFL: 0.398836 (in elmt 161)
+Steps: 29600    Time: 2.96         CPU Time: 11.1039s
+CFL: 0.447728 (in elmt 153)
+Steps: 29700    Time: 2.97         CPU Time: 11.1443s
+CFL: 0.388663 (in elmt 201)
+Steps: 29800    Time: 2.98         CPU Time: 11.1314s
+CFL: 0.386498 (in elmt 201)
+Steps: 29900    Time: 2.99         CPU Time: 11.1288s
+CFL: 0.436406 (in elmt 161)
+Steps: 30000    Time: 3            CPU Time: 11.1578s
+CFL: 0.387568 (in elmt 201)
+Total filters CPU Time:			     0.00232772s
+Writing: "s7055_30.chk" (0.0419238s, XML)
+Steps: 30100    Time: 3.01         CPU Time: 11.1361s
+CFL: 0.414568 (in elmt 168)
+Steps: 30200    Time: 3.02         CPU Time: 11.1135s
+CFL: 0.420818 (in elmt 161)
+Steps: 30300    Time: 3.03         CPU Time: 11.1433s
+CFL: 0.38641 (in elmt 201)
+Steps: 30400    Time: 3.04         CPU Time: 11.0539s
+CFL: 0.430436 (in elmt 168)
+Steps: 30500    Time: 3.05         CPU Time: 11.0272s
+CFL: 0.456143 (in elmt 393)
+Steps: 30600    Time: 3.06         CPU Time: 11.0784s
+CFL: 0.499883 (in elmt 393)
+Steps: 30700    Time: 3.07         CPU Time: 11.0693s
+CFL: 0.544693 (in elmt 393)
+Steps: 30800    Time: 3.08         CPU Time: 11.0861s
+CFL: 0.575805 (in elmt 393)
+Steps: 30900    Time: 3.09         CPU Time: 11.0566s
+CFL: 0.6 (in elmt 394)
+Steps: 31000    Time: 3.1          CPU Time: 11.1784s
+CFL: 0.603416 (in elmt 394)
+Total filters CPU Time:			     0.00252108s
+Writing: "s7055_31.chk" (0.043201s, XML)
+Steps: 31100    Time: 3.11         CPU Time: 11.1018s
+CFL: 0.568089 (in elmt 394)
+Steps: 31200    Time: 3.12         CPU Time: 11.0574s
+CFL: 0.502442 (in elmt 394)
+Steps: 31300    Time: 3.13         CPU Time: 11.0508s
+CFL: 0.416559 (in elmt 394)
+Steps: 31400    Time: 3.14         CPU Time: 10.9832s
+CFL: 0.408556 (in elmt 161)
+Steps: 31500    Time: 3.15         CPU Time: 10.9372s
+CFL: 0.473918 (in elmt 137)
+Steps: 31600    Time: 3.16         CPU Time: 11.0673s
+CFL: 0.390917 (in elmt 160)
+Steps: 31700    Time: 3.17         CPU Time: 11.0795s
+CFL: 0.396132 (in elmt 161)
+Steps: 31800    Time: 3.18         CPU Time: 11.1254s
+CFL: 0.448782 (in elmt 153)
+Steps: 31900    Time: 3.19         CPU Time: 11.153s 
+CFL: 0.388259 (in elmt 201)
+Steps: 32000    Time: 3.2          CPU Time: 11.1586s
+CFL: 0.434508 (in elmt 393)
+Total filters CPU Time:			     0.00232419s
+Writing: "s7055_32.chk" (0.0398429s, XML)
+Steps: 32100    Time: 3.21         CPU Time: 11.0971s
+CFL: 0.49959 (in elmt 393)
+Steps: 32200    Time: 3.22         CPU Time: 11.1475s
+CFL: 0.501744 (in elmt 393)
+Steps: 32300    Time: 3.23         CPU Time: 11.1504s
+CFL: 0.447017 (in elmt 393)
+Steps: 32400    Time: 3.24         CPU Time: 11.167s 
+CFL: 0.434025 (in elmt 161)
+Steps: 32500    Time: 3.25         CPU Time: 11.1109s
+CFL: 0.386833 (in elmt 201)
+Steps: 32600    Time: 3.26         CPU Time: 11.1315s
+CFL: 0.436164 (in elmt 168)
+Steps: 32700    Time: 3.27         CPU Time: 11.0985s
+CFL: 0.432153 (in elmt 161)
+Steps: 32800    Time: 3.28         CPU Time: 11.1354s
+CFL: 0.386223 (in elmt 201)
+Steps: 32900    Time: 3.29         CPU Time: 11.138s 
+CFL: 0.422779 (in elmt 168)
+Steps: 33000    Time: 3.3          CPU Time: 11.163s 
+CFL: 0.408907 (in elmt 393)
+Total filters CPU Time:			     0.00257978s
+Writing: "s7055_33.chk" (0.0374982s, XML)
+Steps: 33100    Time: 3.31         CPU Time: 11.1196s
+CFL: 0.429809 (in elmt 393)
+Steps: 33200    Time: 3.32         CPU Time: 11.1678s
+CFL: 0.419292 (in elmt 393)
+Steps: 33300    Time: 3.33         CPU Time: 11.2506s
+CFL: 0.396773 (in elmt 161)
+Steps: 33400    Time: 3.34         CPU Time: 11.2791s
+CFL: 0.39813 (in elmt 153)
+Steps: 33500    Time: 3.35         CPU Time: 11.236s 
+CFL: 0.420239 (in elmt 160)
+Steps: 33600    Time: 3.36         CPU Time: 11.2209s
+CFL: 0.424788 (in elmt 129)
+Steps: 33700    Time: 3.37         CPU Time: 11.1735s
+CFL: 0.427557 (in elmt 160)
+Steps: 33800    Time: 3.38         CPU Time: 11.1441s
+CFL: 0.405019 (in elmt 160)
+Steps: 33900    Time: 3.39         CPU Time: 11.1428s
+CFL: 0.409615 (in elmt 161)
+Steps: 34000    Time: 3.4          CPU Time: 11.2583s
+CFL: 0.459008 (in elmt 153)
+Total filters CPU Time:			     0.00247408s
+Writing: "s7055_34.chk" (0.0417881s, XML)
+Steps: 34100    Time: 3.41         CPU Time: 11.2154s
+CFL: 0.489638 (in elmt 129)
+Steps: 34200    Time: 3.42         CPU Time: 11.1724s
+CFL: 0.438729 (in elmt 129)
+Steps: 34300    Time: 3.43         CPU Time: 11.0994s
+CFL: 0.442559 (in elmt 161)
+Steps: 34400    Time: 3.44         CPU Time: 11.0903s
+CFL: 0.388336 (in elmt 201)
+Steps: 34500    Time: 3.45         CPU Time: 11.1533s
+CFL: 0.412123 (in elmt 168)
+Steps: 34600    Time: 3.46         CPU Time: 11.1325s
+CFL: 0.426578 (in elmt 153)
+Steps: 34700    Time: 3.47         CPU Time: 11.1727s
+CFL: 0.387981 (in elmt 201)
+Steps: 34800    Time: 3.48         CPU Time: 11.1768s
+CFL: 0.430029 (in elmt 168)
+Steps: 34900    Time: 3.49         CPU Time: 10.9437s
+CFL: 0.432064 (in elmt 161)
+Steps: 35000    Time: 3.5          CPU Time: 11.1367s
+CFL: 0.387872 (in elmt 201)
+Total filters CPU Time:			     0.00232074s
+Writing: "s7055_35.chk" (0.0394011s, XML)
+Steps: 35100    Time: 3.51         CPU Time: 11.1024s
+CFL: 0.420702 (in elmt 168)
+Steps: 35200    Time: 3.52         CPU Time: 11.1623s
+CFL: 0.399262 (in elmt 161)
+Steps: 35300    Time: 3.53         CPU Time: 11.2096s
+CFL: 0.388103 (in elmt 201)
+Steps: 35400    Time: 3.54         CPU Time: 11.1843s
+CFL: 0.414797 (in elmt 160)
+Steps: 35500    Time: 3.55         CPU Time: 11.1218s
+CFL: 0.401129 (in elmt 161)
+Steps: 35600    Time: 3.56         CPU Time: 11.1613s
+CFL: 0.418113 (in elmt 153)
+Steps: 35700    Time: 3.57         CPU Time: 11.138s 
+CFL: 0.419182 (in elmt 113)
+Steps: 35800    Time: 3.58         CPU Time: 11.1183s
+CFL: 0.409866 (in elmt 161)
+Steps: 35900    Time: 3.59         CPU Time: 11.0907s
+CFL: 0.446459 (in elmt 153)
+Steps: 36000    Time: 3.6          CPU Time: 11.1802s
+CFL: 0.390457 (in elmt 201)
+Total filters CPU Time:			     0.00232523s
+Writing: "s7055_36.chk" (0.0410269s, XML)
+Steps: 36100    Time: 3.61         CPU Time: 11.1409s
+CFL: 0.388159 (in elmt 201)
+Steps: 36200    Time: 3.62         CPU Time: 11.18s  
+CFL: 0.448711 (in elmt 161)
+Steps: 36300    Time: 3.63         CPU Time: 11.1514s
+CFL: 0.389432 (in elmt 201)
+Steps: 36400    Time: 3.64         CPU Time: 11.1068s
+CFL: 0.402707 (in elmt 168)
+Steps: 36500    Time: 3.65         CPU Time: 11.0849s
+CFL: 0.427346 (in elmt 161)
+Steps: 36600    Time: 3.66         CPU Time: 11.1369s
+CFL: 0.388619 (in elmt 201)
+Steps: 36700    Time: 3.67         CPU Time: 11.1045s
+CFL: 0.429193 (in elmt 168)
+Steps: 36800    Time: 3.68         CPU Time: 11.1662s
+CFL: 0.437752 (in elmt 161)
+Steps: 36900    Time: 3.69         CPU Time: 11.3483s
+CFL: 0.388236 (in elmt 201)
+Steps: 37000    Time: 3.7          CPU Time: 11.4335s
+CFL: 0.425695 (in elmt 168)
+Total filters CPU Time:			     0.00232633s
+Writing: "s7055_37.chk" (0.0390949s, XML)
+Steps: 37100    Time: 3.71         CPU Time: 11.2057s
+CFL: 0.412525 (in elmt 161)
+Steps: 37200    Time: 3.72         CPU Time: 11.148s 
+CFL: 0.395154 (in elmt 129)
+Steps: 37300    Time: 3.73         CPU Time: 11.1802s
+CFL: 0.405083 (in elmt 160)
+Steps: 37400    Time: 3.74         CPU Time: 11.1051s
+CFL: 0.405457 (in elmt 161)
+Steps: 37500    Time: 3.75         CPU Time: 11.1663s
+CFL: 0.432654 (in elmt 153)
+Steps: 37600    Time: 3.76         CPU Time: 11.0731s
+CFL: 0.413023 (in elmt 160)
+Steps: 37700    Time: 3.77         CPU Time: 11.0975s
+CFL: 0.413234 (in elmt 161)
+Steps: 37800    Time: 3.78         CPU Time: 11.1409s
+CFL: 0.453392 (in elmt 153)
+Steps: 37900    Time: 3.79         CPU Time: 26.7119s
+CFL: 0.391039 (in elmt 201)
+Steps: 38000    Time: 3.8          CPU Time: 11.11s  
+CFL: 0.388365 (in elmt 201)
+Total filters CPU Time:			     0.00319776s
+Writing: "s7055_38.chk" (0.0412399s, XML)
+Steps: 38100    Time: 3.81         CPU Time: 11.0862s
+CFL: 0.43965 (in elmt 161)
+Steps: 38200    Time: 3.82         CPU Time: 11.1069s
+CFL: 0.389534 (in elmt 201)
+Steps: 38300    Time: 3.83         CPU Time: 11.0959s
+CFL: 0.400042 (in elmt 168)
+Steps: 38400    Time: 3.84         CPU Time: 11.0679s
+CFL: 0.424894 (in elmt 153)
+Steps: 38500    Time: 3.85         CPU Time: 11.0743s
+CFL: 0.388638 (in elmt 201)
+Steps: 38600    Time: 3.86         CPU Time: 11.0975s
+CFL: 0.43068 (in elmt 168)
+Steps: 38700    Time: 3.87         CPU Time: 11.0485s
+CFL: 0.429358 (in elmt 161)
+Steps: 38800    Time: 3.88         CPU Time: 11.0779s
+CFL: 0.395413 (in elmt 137)
+Steps: 38900    Time: 3.89         CPU Time: 11.0817s
+CFL: 0.424427 (in elmt 168)
+Steps: 39000    Time: 3.9          CPU Time: 11.0645s
+CFL: 0.407132 (in elmt 161)
+Total filters CPU Time:			     0.0025257s
+Writing: "s7055_39.chk" (0.0416015s, XML)
+Steps: 39100    Time: 3.91         CPU Time: 11.1878s
+CFL: 0.520104 (in elmt 393)
+Steps: 39200    Time: 3.92         CPU Time: 11.1274s
+CFL: 0.602687 (in elmt 393)
+Steps: 39300    Time: 3.93         CPU Time: 10.9414s
+CFL: 0.597851 (in elmt 393)
+Steps: 39400    Time: 3.94         CPU Time: 10.9517s
+CFL: 0.517198 (in elmt 394)
+Steps: 39500    Time: 3.95         CPU Time: 11.0678s
+CFL: 0.412964 (in elmt 160)
+Steps: 39600    Time: 3.96         CPU Time: 11.076s 
+CFL: 0.407763 (in elmt 161)
+Steps: 39700    Time: 3.97         CPU Time: 11.0353s
+CFL: 0.437784 (in elmt 153)
+Steps: 39800    Time: 3.98         CPU Time: 11.0052s
+CFL: 0.394567 (in elmt 160)
+Steps: 39900    Time: 3.99         CPU Time: 11.0469s
+CFL: 0.39642 (in elmt 161)
+Steps: 40000    Time: 4            CPU Time: 11.1253s
+CFL: 0.447096 (in elmt 161)
+Total filters CPU Time:			     0.00229757s
+Writing: "s7055_40.chk" (0.0394928s, XML)
+Steps: 40100    Time: 4.01         CPU Time: 11.0703s
+CFL: 0.389143 (in elmt 201)
+Steps: 40200    Time: 4.02         CPU Time: 11.0152s
+CFL: 0.386911 (in elmt 201)
+Steps: 40300    Time: 4.03         CPU Time: 11.0518s
+CFL: 0.440328 (in elmt 161)
+Steps: 40400    Time: 4.04         CPU Time: 11.0554s
+CFL: 0.393633 (in elmt 129)
+Steps: 40500    Time: 4.05         CPU Time: 11.124s 
+CFL: 0.419452 (in elmt 168)
+Steps: 40600    Time: 4.06         CPU Time: 11.1038s
+CFL: 0.430437 (in elmt 153)
+Steps: 40700    Time: 4.07         CPU Time: 11.1122s
+CFL: 0.387466 (in elmt 201)
+Steps: 40800    Time: 4.08         CPU Time: 11.097s 
+CFL: 0.435352 (in elmt 168)
+Steps: 40900    Time: 4.09         CPU Time: 11.072s 
+CFL: 0.429795 (in elmt 161)
+Steps: 41000    Time: 4.1          CPU Time: 11.0344s
+CFL: 0.386924 (in elmt 201)
+Total filters CPU Time:			     0.00231082s
+Writing: "s7055_41.chk" (0.0417109s, XML)
+Steps: 41100    Time: 4.11         CPU Time: 11.0669s
+CFL: 0.42162 (in elmt 168)
+Steps: 41200    Time: 4.12         CPU Time: 11.0842s
+CFL: 0.473219 (in elmt 129)
+Steps: 41300    Time: 4.13         CPU Time: 11.023s 
+CFL: 0.390524 (in elmt 161)
+Steps: 41400    Time: 4.14         CPU Time: 10.9713s
+CFL: 0.414348 (in elmt 160)
+Steps: 41500    Time: 4.15         CPU Time: 10.9136s
+CFL: 0.400578 (in elmt 161)
+Steps: 41600    Time: 4.16         CPU Time: 11.0028s
+CFL: 0.426842 (in elmt 129)
+Steps: 41700    Time: 4.17         CPU Time: 11.0488s
+CFL: 0.414138 (in elmt 160)
+Steps: 41800    Time: 4.18         CPU Time: 11.1055s
+CFL: 0.404652 (in elmt 161)
+Steps: 41900    Time: 4.19         CPU Time: 10.9889s
+CFL: 0.438934 (in elmt 145)
+Steps: 42000    Time: 4.2          CPU Time: 11.09s  
+CFL: 0.390482 (in elmt 201)
+Total filters CPU Time:			     0.00250464s
+Writing: "s7055_42.chk" (0.041295s, XML)
+Steps: 42100    Time: 4.21         CPU Time: 26.6859s
+CFL: 0.388125 (in elmt 201)
+Steps: 42200    Time: 4.22         CPU Time: 11.2057s
+CFL: 0.440876 (in elmt 161)
+Steps: 42300    Time: 4.23         CPU Time: 11.2684s
+CFL: 0.389826 (in elmt 201)
+Steps: 42400    Time: 4.24         CPU Time: 11.1721s
+CFL: 0.402069 (in elmt 168)
+Steps: 42500    Time: 4.25         CPU Time: 11.1795s
+CFL: 0.42675 (in elmt 153)
+Steps: 42600    Time: 4.26         CPU Time: 11.1645s
+CFL: 0.440737 (in elmt 393)
+Steps: 42700    Time: 4.27         CPU Time: 11.1337s
+CFL: 0.432216 (in elmt 168)
+Steps: 42800    Time: 4.28         CPU Time: 26.359s 
+CFL: 0.430335 (in elmt 161)
+Steps: 42900    Time: 4.29         CPU Time: 11.1434s
+CFL: 0.388159 (in elmt 201)
+Steps: 43000    Time: 4.3          CPU Time: 11.1248s
+CFL: 0.42399 (in elmt 168)
+Total filters CPU Time:			     0.00230848s
+Writing: "s7055_43.chk" (0.0418565s, XML)
+Steps: 43100    Time: 4.31         CPU Time: 11.1842s
+CFL: 0.404031 (in elmt 161)
+Steps: 43200    Time: 4.32         CPU Time: 11.1338s
+CFL: 0.3884 (in elmt 201)
+Steps: 43300    Time: 4.33         CPU Time: 11.1688s
+CFL: 0.412807 (in elmt 160)
+Steps: 43400    Time: 4.34         CPU Time: 11.1606s
+CFL: 0.392425 (in elmt 161)
+Steps: 43500    Time: 4.35         CPU Time: 11.1522s
+CFL: 0.423582 (in elmt 145)
+Steps: 43600    Time: 4.36         CPU Time: 11.1585s
+CFL: 0.414451 (in elmt 160)
+Steps: 43700    Time: 4.37         CPU Time: 11.2228s
+CFL: 0.402105 (in elmt 161)
+Steps: 43800    Time: 4.38         CPU Time: 11.2203s
+CFL: 0.44359 (in elmt 160)
+Steps: 43900    Time: 4.39         CPU Time: 11.1073s
+CFL: 0.390519 (in elmt 201)
+Steps: 44000    Time: 4.4          CPU Time: 11.1238s
+CFL: 0.388327 (in elmt 201)
+Total filters CPU Time:			     0.00232269s
+Writing: "s7055_44.chk" (0.0416203s, XML)
+Steps: 44100    Time: 4.41         CPU Time: 11.1225s
+CFL: 0.443482 (in elmt 161)
+Steps: 44200    Time: 4.42         CPU Time: 11.167s 
+CFL: 0.389857 (in elmt 201)
+Steps: 44300    Time: 4.43         CPU Time: 11.2133s
+CFL: 0.396293 (in elmt 168)
+Steps: 44400    Time: 4.44         CPU Time: 11.196s 
+CFL: 0.423462 (in elmt 161)
+Steps: 44500    Time: 4.45         CPU Time: 11.1594s
+CFL: 0.389012 (in elmt 201)
+Steps: 44600    Time: 4.46         CPU Time: 11.1796s
+CFL: 0.426313 (in elmt 168)
+Steps: 44700    Time: 4.47         CPU Time: 11.1731s
+CFL: 0.42578 (in elmt 161)
+Steps: 44800    Time: 4.48         CPU Time: 11.1966s
+CFL: 0.389035 (in elmt 201)
+Steps: 44900    Time: 4.49         CPU Time: 11.1864s
+CFL: 0.452199 (in elmt 393)
+Steps: 45000    Time: 4.5          CPU Time: 11.1779s
+CFL: 0.519496 (in elmt 393)
+Total filters CPU Time:			     0.00247193s
+Writing: "s7055_45.chk" (0.0429561s, XML)
+Steps: 45100    Time: 4.51         CPU Time: 11.1009s
+CFL: 0.526302 (in elmt 393)
+Steps: 45200    Time: 4.52         CPU Time: 11.1495s
+CFL: 0.453369 (in elmt 393)
+Steps: 45300    Time: 4.53         CPU Time: 11.1459s
+CFL: 0.402758 (in elmt 161)
+Steps: 45400    Time: 4.54         CPU Time: 11.183s 
+CFL: 0.429419 (in elmt 153)
+Steps: 45500    Time: 4.55         CPU Time: 11.1613s
+CFL: 0.405539 (in elmt 160)
+Steps: 45600    Time: 4.56         CPU Time: 11.1619s
+CFL: 0.410013 (in elmt 161)
+Steps: 45700    Time: 4.57         CPU Time: 11.2181s
+CFL: 0.458668 (in elmt 153)
+Steps: 45800    Time: 4.58         CPU Time: 11.1383s
+CFL: 0.436156 (in elmt 393)
+Steps: 45900    Time: 4.59         CPU Time: 11.209s 
+CFL: 0.448635 (in elmt 393)
+Steps: 46000    Time: 4.6          CPU Time: 11.1714s
+CFL: 0.44238 (in elmt 161)
+Total filters CPU Time:			     0.00222408s
+Writing: "s7055_46.chk" (0.0396281s, XML)
+Steps: 46100    Time: 4.61         CPU Time: 11.1245s
+CFL: 0.388844 (in elmt 201)
+Steps: 46200    Time: 4.62         CPU Time: 11.1909s
+CFL: 0.405282 (in elmt 168)
+Steps: 46300    Time: 4.63         CPU Time: 11.1166s
+CFL: 0.418623 (in elmt 153)
+Steps: 46400    Time: 4.64         CPU Time: 11.2082s
+CFL: 0.387887 (in elmt 201)
+Steps: 46500    Time: 4.65         CPU Time: 12.9211s
+CFL: 0.430555 (in elmt 168)
+Steps: 46600    Time: 4.66         CPU Time: 11.0757s
+CFL: 0.42731 (in elmt 161)
+Steps: 46700    Time: 4.67         CPU Time: 11.1312s
+CFL: 0.38754 (in elmt 201)
+Steps: 46800    Time: 4.68         CPU Time: 11.0946s
+CFL: 0.425269 (in elmt 168)
+Steps: 46900    Time: 4.69         CPU Time: 11.0657s
+CFL: 0.408575 (in elmt 161)
+Steps: 47000    Time: 4.7          CPU Time: 11.0564s
+CFL: 0.387439 (in elmt 201)
+Total filters CPU Time:			     0.00228573s
+Writing: "s7055_47.chk" (0.0411559s, XML)
+Steps: 47100    Time: 4.71         CPU Time: 11.1116s
+CFL: 0.409599 (in elmt 160)
+Steps: 47200    Time: 4.72         CPU Time: 11.1602s
+CFL: 0.394631 (in elmt 161)
+Steps: 47300    Time: 4.73         CPU Time: 11.1733s
+CFL: 0.402915 (in elmt 153)
+Steps: 47400    Time: 4.74         CPU Time: 11.0823s
+CFL: 0.416294 (in elmt 160)
+Steps: 47500    Time: 4.75         CPU Time: 11.0851s
+CFL: 0.412667 (in elmt 161)
+Steps: 47600    Time: 4.76         CPU Time: 11.0492s
+CFL: 0.447216 (in elmt 153)
+Steps: 47700    Time: 4.77         CPU Time: 11.0543s
+CFL: 0.390828 (in elmt 160)
+Steps: 47800    Time: 4.78         CPU Time: 11.0516s
+CFL: 0.401334 (in elmt 161)
+Steps: 47900    Time: 4.79         CPU Time: 11.1195s
+CFL: 0.459427 (in elmt 153)
+Steps: 48000    Time: 4.8          CPU Time: 11.0752s
+CFL: 0.484843 (in elmt 1)
+Total filters CPU Time:			     0.00231369s
+Writing: "s7055_48.chk" (0.0405907s, XML)
+Steps: 48100    Time: 4.81         CPU Time: 11.0543s
+CFL: 0.493329 (in elmt 1)
+Steps: 48200    Time: 4.82         CPU Time: 11.0511s
+CFL: 0.483848 (in elmt 2)
+Steps: 48300    Time: 4.83         CPU Time: 11.0796s
+CFL: 0.444022 (in elmt 2)
+Steps: 48400    Time: 4.84         CPU Time: 11.0464s
+CFL: 0.426165 (in elmt 168)
+Steps: 48500    Time: 4.85         CPU Time: 11.0353s
+CFL: 0.436854 (in elmt 161)
+Steps: 48600    Time: 4.86         CPU Time: 11.0525s
+CFL: 0.387678 (in elmt 201)
+Steps: 48700    Time: 4.87         CPU Time: 11.0034s
+CFL: 0.434627 (in elmt 168)
+Steps: 48800    Time: 4.88         CPU Time: 11.0998s
+CFL: 0.423652 (in elmt 161)
+Steps: 48900    Time: 4.89         CPU Time: 11.0873s
+CFL: 0.522651 (in elmt 129)
+Steps: 49000    Time: 4.9          CPU Time: 11.0475s
+CFL: 0.418645 (in elmt 168)
+Total filters CPU Time:			     0.00242898s
+Writing: "s7055_49.chk" (0.0392499s, XML)
+Steps: 49100    Time: 4.91         CPU Time: 11.0679s
+CFL: 0.393977 (in elmt 161)
+Steps: 49200    Time: 4.92         CPU Time: 11.0709s
+CFL: 0.395541 (in elmt 145)
+Steps: 49300    Time: 4.93         CPU Time: 11.0511s
+CFL: 0.488997 (in elmt 129)
+Steps: 49400    Time: 4.94         CPU Time: 11.0929s
+CFL: 0.507726 (in elmt 129)
+Steps: 49500    Time: 4.95         CPU Time: 11.105s 
+CFL: 0.445621 (in elmt 153)
+Steps: 49600    Time: 4.96         CPU Time: 11.0783s
+CFL: 0.40718 (in elmt 160)
+Steps: 49700    Time: 4.97         CPU Time: 11.08s  
+CFL: 0.408594 (in elmt 161)
+Steps: 49800    Time: 4.98         CPU Time: 11.0867s
+CFL: 0.451453 (in elmt 153)
+Steps: 49900    Time: 4.99         CPU Time: 11.0682s
+CFL: 0.390218 (in elmt 201)
+Steps: 50000    Time: 5            CPU Time: 11.1059s
+CFL: 0.388352 (in elmt 201)
+Total filters CPU Time:			     0.00228308s
+Writing: "s7055_50.chk" (0.0412808s, XML)
+Steps: 50100    Time: 5.01         CPU Time: 11.2883s
+CFL: 0.460157 (in elmt 129)
+Steps: 50200    Time: 5.02         CPU Time: 11.1752s
+CFL: 0.389697 (in elmt 201)
+Steps: 50300    Time: 5.03         CPU Time: 11.1125s
+CFL: 0.406988 (in elmt 168)
+Steps: 50400    Time: 5.04         CPU Time: 11.1183s
+CFL: 0.424947 (in elmt 161)
+Steps: 50500    Time: 5.05         CPU Time: 11.0832s
+CFL: 0.38884 (in elmt 201)
+Steps: 50600    Time: 5.06         CPU Time: 11.1152s
+CFL: 0.426233 (in elmt 168)
+Steps: 50700    Time: 5.07         CPU Time: 11.0945s
+CFL: 0.417517 (in elmt 161)
+Steps: 50800    Time: 5.08         CPU Time: 11.0994s
+CFL: 0.388624 (in elmt 201)
+Steps: 50900    Time: 5.09         CPU Time: 11.0579s
+CFL: 0.412183 (in elmt 168)
+Steps: 51000    Time: 5.1          CPU Time: 11.0475s
+CFL: 0.391082 (in elmt 201)
+Total filters CPU Time:			     0.00240958s
+Writing: "s7055_51.chk" (0.0384812s, XML)
+Steps: 51100    Time: 5.11         CPU Time: 11.1408s
+CFL: 0.388903 (in elmt 201)
+Steps: 51200    Time: 5.12         CPU Time: 11.1554s
+CFL: 0.411313 (in elmt 160)
+Steps: 51300    Time: 5.13         CPU Time: 11.0433s
+CFL: 0.485253 (in elmt 129)
+Steps: 51400    Time: 5.14         CPU Time: 11.066s 
+CFL: 0.440918 (in elmt 153)
+Steps: 51500    Time: 5.15         CPU Time: 11.0586s
+CFL: 0.396056 (in elmt 160)
+Steps: 51600    Time: 5.16         CPU Time: 11.0505s
+CFL: 0.403064 (in elmt 161)
+Steps: 51700    Time: 5.17         CPU Time: 11.0709s
+CFL: 0.457885 (in elmt 153)
+Steps: 51800    Time: 5.18         CPU Time: 11.0198s
+CFL: 0.391296 (in elmt 201)
+Steps: 51900    Time: 5.19         CPU Time: 11.0278s
+CFL: 0.407449 (in elmt 1)
+Steps: 52000    Time: 5.2          CPU Time: 11.0235s
+CFL: 0.433208 (in elmt 161)
+Total filters CPU Time:			     0.00251471s
+Writing: "s7055_52.chk" (0.0406417s, XML)
+Steps: 52100    Time: 5.21         CPU Time: 11.0354s
+CFL: 0.429319 (in elmt 1)
+Steps: 52200    Time: 5.22         CPU Time: 11.0571s
+CFL: 0.425816 (in elmt 168)
+Steps: 52300    Time: 5.23         CPU Time: 11.0478s
+CFL: 0.423037 (in elmt 161)
+Steps: 52400    Time: 5.24         CPU Time: 11.0349s
+CFL: 0.389021 (in elmt 201)
+Steps: 52500    Time: 5.25         CPU Time: 11.0577s
+CFL: 0.427578 (in elmt 168)
+Steps: 52600    Time: 5.26         CPU Time: 11.0443s
+CFL: 0.410067 (in elmt 161)
+Steps: 52700    Time: 5.27         CPU Time: 11.0692s
+CFL: 0.388845 (in elmt 168)
+Steps: 52800    Time: 5.28         CPU Time: 11.1262s
+CFL: 0.40803 (in elmt 160)
+Steps: 52900    Time: 5.29         CPU Time: 11.0798s
+CFL: 0.426131 (in elmt 121)
+Steps: 53000    Time: 5.3          CPU Time: 10.9863s
+CFL: 0.449156 (in elmt 393)
+Total filters CPU Time:			     0.00240674s
+Writing: "s7055_53.chk" (0.0414724s, XML)
+Steps: 53100    Time: 5.31         CPU Time: 11.0783s
+CFL: 0.444288 (in elmt 394)
+Steps: 53200    Time: 5.32         CPU Time: 11.0236s
+CFL: 0.414408 (in elmt 394)
+Steps: 53300    Time: 5.33         CPU Time: 11.0081s
+CFL: 0.443706 (in elmt 153)
+Steps: 53400    Time: 5.34         CPU Time: 11.1002s
+CFL: 0.391176 (in elmt 201)
+Steps: 53500    Time: 5.35         CPU Time: 11.1237s
+CFL: 0.389224 (in elmt 201)
+Steps: 53600    Time: 5.36         CPU Time: 11.1126s
+CFL: 0.440311 (in elmt 161)
+Steps: 53700    Time: 5.37         CPU Time: 11.0661s
+CFL: 0.390688 (in elmt 201)
+Steps: 53800    Time: 5.38         CPU Time: 11.064s 
+CFL: 0.402473 (in elmt 168)
+Steps: 53900    Time: 5.39         CPU Time: 11.059s 
+CFL: 0.421964 (in elmt 161)
+Steps: 54000    Time: 5.4          CPU Time: 11.0634s
+CFL: 0.434939 (in elmt 393)
+Total filters CPU Time:			     0.00231155s
+Writing: "s7055_54.chk" (0.0393959s, XML)
+Steps: 54100    Time: 5.41         CPU Time: 11.0239s
+CFL: 0.487077 (in elmt 393)
+Steps: 54200    Time: 5.42         CPU Time: 11.097s 
+CFL: 0.478503 (in elmt 393)
+Steps: 54300    Time: 5.43         CPU Time: 11.0484s
+CFL: 0.399199 (in elmt 393)
+Steps: 54400    Time: 5.44         CPU Time: 11.1004s
+CFL: 0.42368 (in elmt 168)
+Steps: 54500    Time: 5.45         CPU Time: 11.067s 
+CFL: 0.404855 (in elmt 161)
+Steps: 54600    Time: 5.46         CPU Time: 11.0713s
+CFL: 0.389631 (in elmt 168)
+Steps: 54700    Time: 5.47         CPU Time: 11.1282s
+CFL: 0.412415 (in elmt 160)
+Steps: 54800    Time: 5.48         CPU Time: 11.128s 
+CFL: 0.40146 (in elmt 161)
+Steps: 54900    Time: 5.49         CPU Time: 11.1809s
+CFL: 0.43908 (in elmt 393)
+Steps: 55000    Time: 5.5          CPU Time: 10.9771s
+CFL: 0.440563 (in elmt 394)
+Total filters CPU Time:			     0.00250753s
+Writing: "s7055_55.chk" (0.040866s, XML)
+Steps: 55100    Time: 5.51         CPU Time: 11.0781s
+CFL: 0.412473 (in elmt 394)
+Steps: 55200    Time: 5.52         CPU Time: 11.0678s
+CFL: 0.455253 (in elmt 153)
+Steps: 55300    Time: 5.53         CPU Time: 11.0819s
+CFL: 0.390681 (in elmt 201)
+Steps: 55400    Time: 5.54         CPU Time: 11.2019s
+CFL: 0.38867 (in elmt 201)
+Steps: 55500    Time: 5.55         CPU Time: 11.1961s
+CFL: 0.445581 (in elmt 153)
+Steps: 55600    Time: 5.56         CPU Time: 11.1005s
+CFL: 0.389924 (in elmt 201)
+Steps: 55700    Time: 5.57         CPU Time: 10.9689s
+CFL: 0.404596 (in elmt 168)
+Steps: 55800    Time: 5.58         CPU Time: 11.0958s
+CFL: 0.430887 (in elmt 161)
+Steps: 55900    Time: 5.59         CPU Time: 11.1505s
+CFL: 0.388923 (in elmt 201)
+Steps: 56000    Time: 5.6          CPU Time: 11.1588s
+CFL: 0.435239 (in elmt 168)
+Total filters CPU Time:			     0.00266227s
+Writing: "s7055_56.chk" (0.0427929s, XML)
+Steps: 56100    Time: 5.61         CPU Time: 11.0917s
+CFL: 0.485847 (in elmt 393)
+Steps: 56200    Time: 5.62         CPU Time: 11.0977s
+CFL: 0.535364 (in elmt 393)
+Steps: 56300    Time: 5.63         CPU Time: 11.1189s
+CFL: 0.504763 (in elmt 393)
+Steps: 56400    Time: 5.64         CPU Time: 11.1518s
+CFL: 0.424811 (in elmt 161)
+Steps: 56500    Time: 5.65         CPU Time: 11.1794s
+CFL: 0.4758 (in elmt 129)
+Steps: 56600    Time: 5.66         CPU Time: 11.1626s
+CFL: 0.408609 (in elmt 168)
+Steps: 56700    Time: 5.67         CPU Time: 11.1159s
+CFL: 0.399257 (in elmt 129)
+Steps: 56800    Time: 5.68         CPU Time: 11.1325s
+CFL: 0.409996 (in elmt 153)
+Steps: 56900    Time: 5.69         CPU Time: 11.1596s
+CFL: 0.423568 (in elmt 160)
+Steps: 57000    Time: 5.7          CPU Time: 11.1527s
+CFL: 0.438462 (in elmt 393)
+Total filters CPU Time:			     0.00229652s
+Writing: "s7055_57.chk" (0.0411851s, XML)
+Steps: 57100    Time: 5.71         CPU Time: 11.1244s
+CFL: 0.447628 (in elmt 153)
+Steps: 57200    Time: 5.72         CPU Time: 11.1199s
+CFL: 0.410293 (in elmt 160)
+Steps: 57300    Time: 5.73         CPU Time: 11.0766s
+CFL: 0.414032 (in elmt 161)
+Steps: 57400    Time: 5.74         CPU Time: 11.1015s
+CFL: 0.460978 (in elmt 153)
+Steps: 57500    Time: 5.75         CPU Time: 11.0493s
+CFL: 0.389668 (in elmt 201)
+Steps: 57600    Time: 5.76         CPU Time: 11.1147s
+CFL: 0.3877 (in elmt 161)
+Steps: 57700    Time: 5.77         CPU Time: 11.1135s
+CFL: 0.453293 (in elmt 153)
+Steps: 57800    Time: 5.78         CPU Time: 11.1859s
+CFL: 0.388904 (in elmt 201)
+Steps: 57900    Time: 5.79         CPU Time: 11.2684s
+CFL: 0.401022 (in elmt 129)
+Steps: 58000    Time: 5.8          CPU Time: 11.1728s
+CFL: 0.436416 (in elmt 161)
+Total filters CPU Time:			     0.00227831s
+Writing: "s7055_58.chk" (0.038871s, XML)
+Steps: 58100    Time: 5.81         CPU Time: 11.1754s
+CFL: 0.387868 (in elmt 201)
+Steps: 58200    Time: 5.82         CPU Time: 11.192s 
+CFL: 0.430196 (in elmt 168)
+Steps: 58300    Time: 5.83         CPU Time: 11.1095s
+CFL: 0.460145 (in elmt 129)
+Steps: 58400    Time: 5.84         CPU Time: 11.0802s
+CFL: 0.387718 (in elmt 201)
+Steps: 58500    Time: 5.85         CPU Time: 11.061s 
+CFL: 0.439412 (in elmt 168)
+Steps: 58600    Time: 5.86         CPU Time: 11.1477s
+CFL: 0.43471 (in elmt 161)
+Steps: 58700    Time: 5.87         CPU Time: 11.2426s
+CFL: 0.387354 (in elmt 201)
+Steps: 58800    Time: 5.88         CPU Time: 11.1543s
+CFL: 0.420051 (in elmt 168)
+Steps: 58900    Time: 5.89         CPU Time: 11.1297s
+CFL: 0.398953 (in elmt 161)
+Steps: 59000    Time: 5.9          CPU Time: 11.0875s
+CFL: 0.400411 (in elmt 168)
+Total filters CPU Time:			     0.00228924s
+Writing: "s7055_59.chk" (0.0393151s, XML)
+Steps: 59100    Time: 5.91         CPU Time: 11.0796s
+CFL: 0.4232 (in elmt 160)
+Steps: 59200    Time: 5.92         CPU Time: 11.0834s
+CFL: 0.415446 (in elmt 161)
+Steps: 59300    Time: 5.93         CPU Time: 11.0924s
+CFL: 0.439279 (in elmt 153)
+Steps: 59400    Time: 5.94         CPU Time: 11.1071s
+CFL: 0.479364 (in elmt 1)
+Steps: 59500    Time: 5.95         CPU Time: 11.0822s
+CFL: 0.536123 (in elmt 393)
+Steps: 59600    Time: 5.96         CPU Time: 11.1086s
+CFL: 0.564064 (in elmt 393)
+Steps: 59700    Time: 5.97         CPU Time: 11.0923s
+CFL: 0.545331 (in elmt 393)
+Steps: 59800    Time: 5.98         CPU Time: 11.0915s
+CFL: 0.465892 (in elmt 393)
+Steps: 59900    Time: 5.99         CPU Time: 11.0854s
+CFL: 0.57953 (in elmt 129)
+Steps: 60000    Time: 6            CPU Time: 11.0991s
+CFL: 0.416174 (in elmt 137)
+Total filters CPU Time:			     0.00238303s
+Writing: "s7055_60.chk" (0.0408317s, XML)
+Steps: 60100    Time: 6.01         CPU Time: 11.1256s
+CFL: 0.400804 (in elmt 129)
+Steps: 60200    Time: 6.02         CPU Time: 11.1844s
+CFL: 0.437325 (in elmt 137)
+Steps: 60300    Time: 6.03         CPU Time: 11.2281s
+CFL: 0.388775 (in elmt 201)
+Steps: 60400    Time: 6.04         CPU Time: 11.1886s
+CFL: 0.420619 (in elmt 168)
+Steps: 60500    Time: 6.05         CPU Time: 11.018s 
+CFL: 0.44508 (in elmt 393)
+Steps: 60600    Time: 6.06         CPU Time: 11.0254s
+CFL: 0.431691 (in elmt 394)
+Steps: 60700    Time: 6.07         CPU Time: 11.0727s
+CFL: 0.424186 (in elmt 168)
+Steps: 60800    Time: 6.08         CPU Time: 11.1644s
+CFL: 0.410418 (in elmt 161)
+Steps: 60900    Time: 6.09         CPU Time: 11.3011s
+CFL: 0.387897 (in elmt 201)
+Steps: 61000    Time: 6.1          CPU Time: 11.2933s
+CFL: 0.400862 (in elmt 168)
+Total filters CPU Time:			     0.00254887s
+Writing: "s7055_61.chk" (0.0409574s, XML)
+Steps: 61100    Time: 6.11         CPU Time: 11.1677s
+CFL: 0.389942 (in elmt 201)
+Steps: 61200    Time: 6.12         CPU Time: 11.0832s
+CFL: 0.403647 (in elmt 145)
+Steps: 61300    Time: 6.13         CPU Time: 11.0726s
+CFL: 0.408292 (in elmt 160)
+Steps: 61400    Time: 6.14         CPU Time: 11.1847s
+CFL: 0.412111 (in elmt 161)
+Steps: 61500    Time: 6.15         CPU Time: 11.1522s
+CFL: 0.451328 (in elmt 153)
+Steps: 61600    Time: 6.16         CPU Time: 11.1318s
+CFL: 0.392358 (in elmt 160)
+Steps: 61700    Time: 6.17         CPU Time: 11.1357s
+CFL: 0.388342 (in elmt 201)
+Steps: 61800    Time: 6.18         CPU Time: 11.0986s
+CFL: 0.446271 (in elmt 161)
+Steps: 61900    Time: 6.19         CPU Time: 11.0986s
+CFL: 0.390025 (in elmt 201)
+Steps: 62000    Time: 6.2          CPU Time: 11.0669s
+CFL: 0.388049 (in elmt 201)
+Total filters CPU Time:			     0.00230702s
+Writing: "s7055_62.chk" (0.0419595s, XML)
+Steps: 62100    Time: 6.21         CPU Time: 11.1124s
+CFL: 0.428783 (in elmt 161)
+Steps: 62200    Time: 6.22         CPU Time: 11.1489s
+CFL: 0.388793 (in elmt 201)
+Steps: 62300    Time: 6.23         CPU Time: 11.0969s
+CFL: 0.423457 (in elmt 168)
+Steps: 62400    Time: 6.24         CPU Time: 11.0739s
+CFL: 0.420155 (in elmt 161)
+Steps: 62500    Time: 6.25         CPU Time: 11.0571s
+CFL: 0.388253 (in elmt 201)
+Steps: 62600    Time: 6.26         CPU Time: 10.9114s
+CFL: 0.42747 (in elmt 168)
+Steps: 62700    Time: 6.27         CPU Time: 10.9128s
+CFL: 0.41224 (in elmt 161)
+Steps: 62800    Time: 6.28         CPU Time: 10.9193s
+CFL: 0.38828 (in elmt 201)
+Steps: 62900    Time: 6.29         CPU Time: 11.2464s
+CFL: 0.47631 (in elmt 129)
+Steps: 63000    Time: 6.3          CPU Time: 11.2717s
+CFL: 0.530191 (in elmt 129)
+Total filters CPU Time:			     0.00280703s
+Writing: "s7055_63.chk" (0.0407831s, XML)
+Steps: 63100    Time: 6.31         CPU Time: 11.177s 
+CFL: 0.432663 (in elmt 153)
+Steps: 63200    Time: 6.32         CPU Time: 10.9598s
+CFL: 0.412686 (in elmt 160)
+Steps: 63300    Time: 6.33         CPU Time: 10.7622s
+CFL: 0.4087 (in elmt 161)
+Steps: 63400    Time: 6.34         CPU Time: 10.6355s
+CFL: 0.444027 (in elmt 153)
+Steps: 63500    Time: 6.35         CPU Time: 10.6839s
+CFL: 0.390883 (in elmt 201)
+Steps: 63600    Time: 6.36         CPU Time: 10.8169s
+CFL: 0.38832 (in elmt 201)
+Steps: 63700    Time: 6.37         CPU Time: 11.022s 
+CFL: 0.441937 (in elmt 161)
+Steps: 63800    Time: 6.38         CPU Time: 11.2155s
+CFL: 0.389902 (in elmt 201)
+Steps: 63900    Time: 6.39         CPU Time: 11.1618s
+CFL: 0.397105 (in elmt 168)
+Steps: 64000    Time: 6.4          CPU Time: 10.9483s
+CFL: 0.418496 (in elmt 153)
+Total filters CPU Time:			     0.00239896s
+Writing: "s7055_64.chk" (0.0384604s, XML)
+Steps: 64100    Time: 6.41         CPU Time: 10.7492s
+CFL: 0.388903 (in elmt 201)
+Steps: 64200    Time: 6.42         CPU Time: 10.6843s
+CFL: 0.428982 (in elmt 168)
+Steps: 64300    Time: 6.43         CPU Time: 10.6718s
+CFL: 0.423625 (in elmt 161)
+Steps: 64400    Time: 6.44         CPU Time: 10.8567s
+CFL: 0.38874 (in elmt 201)
+Steps: 64500    Time: 6.45         CPU Time: 11.1011s
+CFL: 0.420315 (in elmt 168)
+Steps: 64600    Time: 6.46         CPU Time: 11.2456s
+CFL: 0.437557 (in elmt 129)
+Steps: 64700    Time: 6.47         CPU Time: 11.2754s
+CFL: 0.409428 (in elmt 136)
+Steps: 64800    Time: 6.48         CPU Time: 11.2137s
+CFL: 0.407117 (in elmt 160)
+Steps: 64900    Time: 6.49         CPU Time: 11.147s 
+CFL: 0.400595 (in elmt 161)
+Steps: 65000    Time: 6.5          CPU Time: 11.0744s
+CFL: 0.425536 (in elmt 153)
+Total filters CPU Time:			     0.00244493s
+Writing: "s7055_65.chk" (0.0412718s, XML)
+Steps: 65100    Time: 6.51         CPU Time: 11.1562s
+CFL: 0.407911 (in elmt 160)
+Steps: 65200    Time: 6.52         CPU Time: 11.1655s
+CFL: 0.396295 (in elmt 161)
+Steps: 65300    Time: 6.53         CPU Time: 11.0545s
+CFL: 0.447591 (in elmt 160)
+Steps: 65400    Time: 6.54         CPU Time: 11.0473s
+CFL: 0.391533 (in elmt 201)
+Steps: 65500    Time: 6.55         CPU Time: 11.1096s
+CFL: 0.389161 (in elmt 201)
+Steps: 65600    Time: 6.56         CPU Time: 11.0881s
+CFL: 0.439682 (in elmt 161)
+Steps: 65700    Time: 6.57         CPU Time: 11.1829s
+CFL: 0.401597 (in elmt 129)
+Steps: 65800    Time: 6.58         CPU Time: 11.1289s
+CFL: 0.415924 (in elmt 168)
+Steps: 65900    Time: 6.59         CPU Time: 11.1091s
+CFL: 0.422553 (in elmt 161)
+Steps: 66000    Time: 6.6          CPU Time: 11.061s 
+CFL: 0.38965 (in elmt 201)
+Total filters CPU Time:			     0.00229061s
+Writing: "s7055_66.chk" (0.0413316s, XML)
+Steps: 66100    Time: 6.61         CPU Time: 11.0305s
+CFL: 0.429972 (in elmt 168)
+Steps: 66200    Time: 6.62         CPU Time: 11.0687s
+CFL: 0.41787 (in elmt 161)
+Steps: 66300    Time: 6.63         CPU Time: 11.0486s
+CFL: 0.389135 (in elmt 201)
+Steps: 66400    Time: 6.64         CPU Time: 11.085s 
+CFL: 0.396974 (in elmt 168)
+Steps: 66500    Time: 6.65         CPU Time: 11.1587s
+CFL: 0.391632 (in elmt 161)
+Steps: 66600    Time: 6.66         CPU Time: 11.1461s
+CFL: 0.410767 (in elmt 153)
+Steps: 66700    Time: 6.67         CPU Time: 11.1273s
+CFL: 0.416017 (in elmt 160)
+Steps: 66800    Time: 6.68         CPU Time: 11.0913s
+CFL: 0.411031 (in elmt 161)
+Steps: 66900    Time: 6.69         CPU Time: 11.1429s
+CFL: 0.5058 (in elmt 129)
+Steps: 67000    Time: 6.7          CPU Time: 11.0113s
+CFL: 0.393343 (in elmt 160)
+Total filters CPU Time:			     0.00249182s
+Writing: "s7055_67.chk" (0.041181s, XML)
+Steps: 67100    Time: 6.71         CPU Time: 11.0607s
+CFL: 0.389908 (in elmt 161)
+Steps: 67200    Time: 6.72         CPU Time: 11.1971s
+CFL: 0.446056 (in elmt 161)
+Steps: 67300    Time: 6.73         CPU Time: 11.1889s
+CFL: 0.389625 (in elmt 201)
+Steps: 67400    Time: 6.74         CPU Time: 11.1007s
+CFL: 0.387996 (in elmt 201)
+Steps: 67500    Time: 6.75         CPU Time: 11.1062s
+CFL: 0.427424 (in elmt 161)
+Steps: 67600    Time: 6.76         CPU Time: 11.1324s
+CFL: 0.388557 (in elmt 201)
+Steps: 67700    Time: 6.77         CPU Time: 11.1262s
+CFL: 0.422814 (in elmt 168)
+Steps: 67800    Time: 6.78         CPU Time: 11.1422s
+CFL: 0.427843 (in elmt 161)
+Steps: 67900    Time: 6.79         CPU Time: 11.1778s
+CFL: 0.387769 (in elmt 201)
+Steps: 68000    Time: 6.8          CPU Time: 11.0715s
+CFL: 0.429398 (in elmt 168)
+Total filters CPU Time:			     0.00251901s
+Writing: "s7055_68.chk" (0.0408415s, XML)
+Steps: 68100    Time: 6.81         CPU Time: 11.1582s
+CFL: 0.498875 (in elmt 129)
+Steps: 68200    Time: 6.82         CPU Time: 11.1251s
+CFL: 0.387835 (in elmt 201)
+Steps: 68300    Time: 6.83         CPU Time: 11.1285s
+CFL: 0.399606 (in elmt 168)
+Steps: 68400    Time: 6.84         CPU Time: 11.1493s
+CFL: 0.392053 (in elmt 161)
+Steps: 68500    Time: 6.85         CPU Time: 11.201s 
+CFL: 0.410269 (in elmt 153)
+Steps: 68600    Time: 6.86         CPU Time: 11.2155s
+CFL: 0.412031 (in elmt 160)
+Steps: 68700    Time: 6.87         CPU Time: 11.1195s
+CFL: 0.401514 (in elmt 161)
+Steps: 68800    Time: 6.88         CPU Time: 11.1098s
+CFL: 0.520327 (in elmt 129)
+Steps: 68900    Time: 6.89         CPU Time: 11.0764s
+CFL: 0.392443 (in elmt 160)
+Steps: 69000    Time: 6.9          CPU Time: 11.1525s
+CFL: 0.397781 (in elmt 161)
+Total filters CPU Time:			     0.00229633s
+Writing: "s7055_69.chk" (0.0397986s, XML)
+Steps: 69100    Time: 6.91         CPU Time: 11.0576s
+CFL: 0.45276 (in elmt 153)
+Steps: 69200    Time: 6.92         CPU Time: 11.0953s
+CFL: 0.38952 (in elmt 201)
+Steps: 69300    Time: 6.93         CPU Time: 11.116s 
+CFL: 0.387888 (in elmt 201)
+Steps: 69400    Time: 6.94         CPU Time: 11.1255s
+CFL: 0.42618 (in elmt 161)
+Steps: 69500    Time: 6.95         CPU Time: 10.9611s
+CFL: 0.388849 (in elmt 201)
+Steps: 69600    Time: 6.96         CPU Time: 11.0729s
+CFL: 0.421178 (in elmt 168)
+Steps: 69700    Time: 6.97         CPU Time: 11.0882s
+CFL: 0.426217 (in elmt 161)
+Steps: 69800    Time: 6.98         CPU Time: 11.0365s
+CFL: 0.390291 (in elmt 136)
+Steps: 69900    Time: 6.99         CPU Time: 11.0591s
+CFL: 0.424769 (in elmt 168)
+Steps: 70000    Time: 7            CPU Time: 11.0884s
+CFL: 0.406487 (in elmt 161)
+Total filters CPU Time:			     0.00265895s
+Writing: "s7055_70.chk" (0.0415361s, XML)
+Steps: 70100    Time: 7.01         CPU Time: 11.1125s
+CFL: 0.38853 (in elmt 201)
+Steps: 70200    Time: 7.02         CPU Time: 11.0823s
+CFL: 0.401338 (in elmt 160)
+Steps: 70300    Time: 7.03         CPU Time: 11.1048s
+CFL: 0.390188 (in elmt 201)
+Steps: 70400    Time: 7.04         CPU Time: 11.1234s
+CFL: 0.398296 (in elmt 153)
+Steps: 70500    Time: 7.05         CPU Time: 11.0937s
+CFL: 0.410767 (in elmt 160)
+Steps: 70600    Time: 7.06         CPU Time: 11.0707s
+CFL: 0.437509 (in elmt 121)
+Steps: 70700    Time: 7.07         CPU Time: 11.0822s
+CFL: 0.453484 (in elmt 153)
+Steps: 70800    Time: 7.08         CPU Time: 11.0886s
+CFL: 0.391312 (in elmt 201)
+Steps: 70900    Time: 7.09         CPU Time: 11.1152s
+CFL: 0.416644 (in elmt 393)
+Steps: 71000    Time: 7.1          CPU Time: 11.1225s
+CFL: 0.52069 (in elmt 393)
+Total filters CPU Time:			     0.00239065s
+Writing: "s7055_71.chk" (0.0415488s, XML)
+Steps: 71100    Time: 7.11         CPU Time: 11.1456s
+CFL: 0.582073 (in elmt 393)
+Steps: 71200    Time: 7.12         CPU Time: 11.1248s
+CFL: 0.578322 (in elmt 393)
+Steps: 71300    Time: 7.13         CPU Time: 11.0914s
+CFL: 0.505846 (in elmt 393)
+Steps: 71400    Time: 7.14         CPU Time: 11.0962s
+CFL: 0.389132 (in elmt 201)
+Steps: 71500    Time: 7.15         CPU Time: 11.0955s
+CFL: 0.431596 (in elmt 168)
+Steps: 71600    Time: 7.16         CPU Time: 11.1307s
+CFL: 0.426731 (in elmt 161)
+Steps: 71700    Time: 7.17         CPU Time: 11.1082s
+CFL: 0.390282 (in elmt 129)
+Steps: 71800    Time: 7.18         CPU Time: 11.1355s
+CFL: 0.422702 (in elmt 168)
+Steps: 71900    Time: 7.19         CPU Time: 11.1726s
+CFL: 0.400265 (in elmt 161)
+Steps: 72000    Time: 7.2          CPU Time: 11.1837s
+CFL: 0.390961 (in elmt 168)
+Total filters CPU Time:			     0.00256532s
+Writing: "s7055_72.chk" (0.04016s, XML)
+Steps: 72100    Time: 7.21         CPU Time: 11.0868s
+CFL: 0.415234 (in elmt 160)
+Steps: 72200    Time: 7.22         CPU Time: 11.0933s
+CFL: 0.424796 (in elmt 129)
+Steps: 72300    Time: 7.23         CPU Time: 11.1049s
+CFL: 0.468752 (in elmt 137)
+Steps: 72400    Time: 7.24         CPU Time: 11.0959s
+CFL: 0.410629 (in elmt 160)
+Steps: 72500    Time: 7.25         CPU Time: 11.0443s
+CFL: 0.41009 (in elmt 161)
+Steps: 72600    Time: 7.26         CPU Time: 11.0775s
+CFL: 0.449616 (in elmt 153)
+Steps: 72700    Time: 7.27         CPU Time: 11.1082s
+CFL: 0.389629 (in elmt 201)
+Steps: 72800    Time: 7.28         CPU Time: 11.0672s
+CFL: 0.387564 (in elmt 201)
+Steps: 72900    Time: 7.29         CPU Time: 11.073s 
+CFL: 0.44392 (in elmt 161)
+Steps: 73000    Time: 7.3          CPU Time: 11.0589s
+CFL: 0.388955 (in elmt 201)
+Total filters CPU Time:			     0.00230261s
+Writing: "s7055_73.chk" (0.041167s, XML)
+Steps: 73100    Time: 7.31         CPU Time: 11.0438s
+CFL: 0.393101 (in elmt 168)
+Steps: 73200    Time: 7.32         CPU Time: 11.0925s
+CFL: 0.427704 (in elmt 161)
+Steps: 73300    Time: 7.33         CPU Time: 11.1558s
+CFL: 0.388015 (in elmt 201)
+Steps: 73400    Time: 7.34         CPU Time: 11.0565s
+CFL: 0.424568 (in elmt 168)
+Steps: 73500    Time: 7.35         CPU Time: 11.0495s
+CFL: 0.427919 (in elmt 161)
+Steps: 73600    Time: 7.36         CPU Time: 11.0639s
+CFL: 0.387839 (in elmt 201)
+Steps: 73700    Time: 7.37         CPU Time: 11.0661s
+CFL: 0.423316 (in elmt 168)
+Steps: 73800    Time: 7.38         CPU Time: 11.1588s
+CFL: 0.408246 (in elmt 161)
+Steps: 73900    Time: 7.39         CPU Time: 11.0733s
+CFL: 0.387962 (in elmt 201)
+Steps: 74000    Time: 7.4          CPU Time: 11.085s 
+CFL: 0.39974 (in elmt 160)
+Total filters CPU Time:			     0.00226389s
+Writing: "s7055_74.chk" (0.0408627s, XML)
+Steps: 74100    Time: 7.41         CPU Time: 11.082s 
+CFL: 0.391303 (in elmt 161)
+Steps: 74200    Time: 7.42         CPU Time: 11.0573s
+CFL: 0.403358 (in elmt 153)
+Steps: 74300    Time: 7.43         CPU Time: 11.0593s
+CFL: 0.411561 (in elmt 160)
+Steps: 74400    Time: 7.44         CPU Time: 11.0522s
+CFL: 0.409096 (in elmt 161)
+Steps: 74500    Time: 7.45         CPU Time: 11.0758s
+CFL: 0.447164 (in elmt 153)
+Steps: 74600    Time: 7.46         CPU Time: 11.0666s
+CFL: 0.390886 (in elmt 201)
+Steps: 74700    Time: 7.47         CPU Time: 11.0888s
+CFL: 0.388155 (in elmt 201)
+Steps: 74800    Time: 7.48         CPU Time: 11.0811s
+CFL: 0.441819 (in elmt 161)
+Steps: 74900    Time: 7.49         CPU Time: 11.0721s
+CFL: 0.48529 (in elmt 393)
+Steps: 75000    Time: 7.5          CPU Time: 11.0769s
+CFL: 0.531652 (in elmt 393)
+Total filters CPU Time:			     0.00229295s
+Writing: "s7055_75.chk" (0.0410323s, XML)
+Steps: 75100    Time: 7.51         CPU Time: 11.0815s
+CFL: 0.496254 (in elmt 393)
+Steps: 75200    Time: 7.52         CPU Time: 11.0814s
+CFL: 0.388649 (in elmt 201)
+Steps: 75300    Time: 7.53         CPU Time: 11.0661s
+CFL: 0.433934 (in elmt 168)
+Steps: 75400    Time: 7.54         CPU Time: 11.0842s
+CFL: 0.43502 (in elmt 161)
+Steps: 75500    Time: 7.55         CPU Time: 11.0191s
+CFL: 0.387589 (in elmt 201)
+Steps: 75600    Time: 7.56         CPU Time: 11.0098s
+CFL: 0.427284 (in elmt 168)
+Steps: 75700    Time: 7.57         CPU Time: 11.0393s
+CFL: 0.438157 (in elmt 393)
+Steps: 75800    Time: 7.58         CPU Time: 11.0834s
+CFL: 0.453631 (in elmt 393)
+Steps: 75900    Time: 7.59         CPU Time: 11.0369s
+CFL: 0.424118 (in elmt 393)
+Steps: 76000    Time: 7.6          CPU Time: 11.0473s
+CFL: 0.395949 (in elmt 161)
+Total filters CPU Time:			     0.00252276s
+Writing: "s7055_76.chk" (0.0432818s, XML)
+Steps: 76100    Time: 7.61         CPU Time: 11.0252s
+CFL: 0.411295 (in elmt 153)
+Steps: 76200    Time: 7.62         CPU Time: 11.0631s
+CFL: 0.412962 (in elmt 160)
+Steps: 76300    Time: 7.63         CPU Time: 11.0563s
+CFL: 0.414656 (in elmt 161)
+Steps: 76400    Time: 7.64         CPU Time: 11.0102s
+CFL: 0.455189 (in elmt 153)
+Steps: 76500    Time: 7.65         CPU Time: 10.8746s
+CFL: 0.390275 (in elmt 201)
+Steps: 76600    Time: 7.66         CPU Time: 11.0067s
+CFL: 0.395748 (in elmt 161)
+Steps: 76700    Time: 7.67         CPU Time: 11.0369s
+CFL: 0.451153 (in elmt 153)
+Steps: 76800    Time: 7.68         CPU Time: 11.0011s
+CFL: 0.389419 (in elmt 201)
+Steps: 76900    Time: 7.69         CPU Time: 11.1151s
+CFL: 0.393221 (in elmt 121)
+Steps: 77000    Time: 7.7          CPU Time: 11.0681s
+CFL: 0.432422 (in elmt 161)
+Total filters CPU Time:			     0.00226459s
+Writing: "s7055_77.chk" (0.0409962s, XML)
+Steps: 77100    Time: 7.71         CPU Time: 11.0835s
+CFL: 0.388604 (in elmt 201)
+Steps: 77200    Time: 7.72         CPU Time: 11.0738s
+CFL: 0.426609 (in elmt 168)
+Steps: 77300    Time: 7.73         CPU Time: 11.0859s
+CFL: 0.425969 (in elmt 161)
+Steps: 77400    Time: 7.74         CPU Time: 11.0696s
+CFL: 0.387915 (in elmt 201)
+Steps: 77500    Time: 7.75         CPU Time: 11.0632s
+CFL: 0.431297 (in elmt 168)
+Steps: 77600    Time: 7.76         CPU Time: 11.0658s
+CFL: 0.418582 (in elmt 161)
+Steps: 77700    Time: 7.77         CPU Time: 10.9711s
+CFL: 0.444224 (in elmt 137)
+Steps: 77800    Time: 7.78         CPU Time: 11.0463s
+CFL: 0.404887 (in elmt 160)
+Steps: 77900    Time: 7.79         CPU Time: 11.0323s
+CFL: 0.389301 (in elmt 201)
+Steps: 78000    Time: 7.8          CPU Time: 11.0423s
+CFL: 0.41003 (in elmt 145)
+Total filters CPU Time:			     0.00285842s
+Writing: "s7055_78.chk" (0.0406178s, XML)
+Steps: 78100    Time: 7.81         CPU Time: 11.0671s
+CFL: 0.416477 (in elmt 160)
+Steps: 78200    Time: 7.82         CPU Time: 11.0763s
+CFL: 0.405789 (in elmt 161)
+Steps: 78300    Time: 7.83         CPU Time: 11.092s 
+CFL: 0.475357 (in elmt 137)
+Steps: 78400    Time: 7.84         CPU Time: 11.0786s
+CFL: 0.399263 (in elmt 160)
+Steps: 78500    Time: 7.85         CPU Time: 11.0975s
+CFL: 0.401308 (in elmt 161)
+Steps: 78600    Time: 7.86         CPU Time: 11.1901s
+CFL: 0.44865 (in elmt 153)
+Steps: 78700    Time: 7.87         CPU Time: 11.2712s
+CFL: 0.389205 (in elmt 201)
+Steps: 78800    Time: 7.88         CPU Time: 11.1965s
+CFL: 0.387293 (in elmt 201)
+Steps: 78900    Time: 7.89         CPU Time: 11.1241s
+CFL: 0.435478 (in elmt 161)
+Steps: 79000    Time: 7.9          CPU Time: 11.1004s
+CFL: 0.388339 (in elmt 201)
+Total filters CPU Time:			     0.00268311s
+Writing: "s7055_79.chk" (0.0413174s, XML)
+Steps: 79100    Time: 7.91         CPU Time: 11.1151s
+CFL: 0.414009 (in elmt 168)
+Steps: 79200    Time: 7.92         CPU Time: 11.141s 
+CFL: 0.429083 (in elmt 161)
+Steps: 79300    Time: 7.93         CPU Time: 11.0161s
+CFL: 0.387888 (in elmt 201)
+Steps: 79400    Time: 7.94         CPU Time: 11.0553s
+CFL: 0.432249 (in elmt 168)
+Steps: 79500    Time: 7.95         CPU Time: 11.032s 
+CFL: 0.426194 (in elmt 161)
+Steps: 79600    Time: 7.96         CPU Time: 11.0194s
+CFL: 0.387604 (in elmt 201)
+Steps: 79700    Time: 7.97         CPU Time: 11.0569s
+CFL: 0.419326 (in elmt 168)
+Steps: 79800    Time: 7.98         CPU Time: 11.0404s
+CFL: 0.398299 (in elmt 161)
+Steps: 79900    Time: 7.99         CPU Time: 11.0621s
+CFL: 0.389229 (in elmt 168)
+Steps: 80000    Time: 8            CPU Time: 11.0278s
+CFL: 0.454112 (in elmt 113)
+Total filters CPU Time:			     0.00264436s
+Writing: "s7055_80.chk" (0.041034s, XML)
+Steps: 80100    Time: 8.01         CPU Time: 11.0295s
+CFL: 0.527031 (in elmt 393)
+Steps: 80200    Time: 8.02         CPU Time: 11.0563s
+CFL: 0.583591 (in elmt 393)
+Steps: 80300    Time: 8.03         CPU Time: 11.0632s
+CFL: 0.57626 (in elmt 393)
+Steps: 80400    Time: 8.04         CPU Time: 11.0051s
+CFL: 0.499424 (in elmt 393)
+Steps: 80500    Time: 8.05         CPU Time: 11.025s 
+CFL: 0.460206 (in elmt 153)
+Steps: 80600    Time: 8.06         CPU Time: 11.045s 
+CFL: 0.389283 (in elmt 201)
+Steps: 80700    Time: 8.07         CPU Time: 11.0927s
+CFL: 0.388223 (in elmt 161)
+Steps: 80800    Time: 8.08         CPU Time: 10.9909s
+CFL: 0.452128 (in elmt 161)
+Steps: 80900    Time: 8.09         CPU Time: 11.0444s
+CFL: 0.388568 (in elmt 201)
+Steps: 81000    Time: 8.1          CPU Time: 11.2481s
+CFL: 0.420422 (in elmt 393)
+Total filters CPU Time:			     0.00241837s
+Writing: "s7055_81.chk" (0.0411224s, XML)
+Steps: 81100    Time: 8.11         CPU Time: 11.1934s
+CFL: 0.445436 (in elmt 393)
+Steps: 81200    Time: 8.12         CPU Time: 11.1633s
+CFL: 0.424038 (in elmt 394)
+Steps: 81300    Time: 8.13         CPU Time: 11.0493s
+CFL: 0.422031 (in elmt 168)
+Steps: 81400    Time: 8.14         CPU Time: 11.113s 
+CFL: 0.428385 (in elmt 161)
+Steps: 81500    Time: 8.15         CPU Time: 11.2094s
+CFL: 0.390724 (in elmt 129)
+Steps: 81600    Time: 8.16         CPU Time: 11.1527s
+CFL: 0.431085 (in elmt 168)
+Steps: 81700    Time: 8.17         CPU Time: 11.2388s
+CFL: 0.421829 (in elmt 161)
+Steps: 81800    Time: 8.18         CPU Time: 11.1269s
+CFL: 0.387568 (in elmt 201)
+Steps: 81900    Time: 8.19         CPU Time: 11.1224s
+CFL: 0.401898 (in elmt 168)
+Steps: 82000    Time: 8.2          CPU Time: 11.1214s
+CFL: 0.38933 (in elmt 201)
+Total filters CPU Time:			     0.00249143s
+Writing: "s7055_82.chk" (0.0370713s, XML)
+Steps: 82100    Time: 8.21         CPU Time: 11.1103s
+CFL: 0.387635 (in elmt 201)
+Steps: 82200    Time: 8.22         CPU Time: 11.0628s
+CFL: 0.413526 (in elmt 160)
+Steps: 82300    Time: 8.23         CPU Time: 11.0852s
+CFL: 0.401364 (in elmt 161)
+Steps: 82400    Time: 8.24         CPU Time: 11.124s 
+CFL: 0.42647 (in elmt 129)
+Steps: 82500    Time: 8.25         CPU Time: 11.0844s
+CFL: 0.400103 (in elmt 160)
+Steps: 82600    Time: 8.26         CPU Time: 11.0856s
+CFL: 0.402751 (in elmt 161)
+Steps: 82700    Time: 8.27         CPU Time: 11.1172s
+CFL: 0.453269 (in elmt 153)
+Steps: 82800    Time: 8.28         CPU Time: 11.0611s
+CFL: 0.389627 (in elmt 201)
+Steps: 82900    Time: 8.29         CPU Time: 11.0487s
+CFL: 0.388094 (in elmt 201)
+Steps: 83000    Time: 8.3          CPU Time: 11.0007s
+CFL: 0.430421 (in elmt 161)
+Total filters CPU Time:			     0.00238789s
+Writing: "s7055_83.chk" (0.0409347s, XML)
+Steps: 83100    Time: 8.31         CPU Time: 11.044s 
+CFL: 0.388833 (in elmt 201)
+Steps: 83200    Time: 8.32         CPU Time: 11.101s 
+CFL: 0.418793 (in elmt 168)
+Steps: 83300    Time: 8.33         CPU Time: 11.1429s
+CFL: 0.427142 (in elmt 161)
+Steps: 83400    Time: 8.34         CPU Time: 10.9522s
+CFL: 0.456089 (in elmt 393)
+Steps: 83500    Time: 8.35         CPU Time: 11.0944s
+CFL: 0.471774 (in elmt 393)
+Steps: 83600    Time: 8.36         CPU Time: 11.1698s
+CFL: 0.472454 (in elmt 1)
+Steps: 83700    Time: 8.37         CPU Time: 11.0742s
+CFL: 0.478834 (in elmt 2)
+Steps: 83800    Time: 8.38         CPU Time: 11.0757s
+CFL: 0.456243 (in elmt 2)
+Steps: 83900    Time: 8.39         CPU Time: 11.0762s
+CFL: 0.397161 (in elmt 2)
+Steps: 84000    Time: 8.4          CPU Time: 11.0539s
+CFL: 0.388171 (in elmt 201)
+Total filters CPU Time:			     0.00231155s
+Writing: "s7055_84.chk" (0.0391925s, XML)
+Steps: 84100    Time: 8.41         CPU Time: 11.0199s
+CFL: 0.41615 (in elmt 160)
+Steps: 84200    Time: 8.42         CPU Time: 10.9873s
+CFL: 0.409368 (in elmt 161)
+Steps: 84300    Time: 8.43         CPU Time: 11.1348s
+CFL: 0.439437 (in elmt 153)
+Steps: 84400    Time: 8.44         CPU Time: 11.1233s
+CFL: 0.398641 (in elmt 160)
+Steps: 84500    Time: 8.45         CPU Time: 11.1333s
+CFL: 0.404276 (in elmt 161)
+Steps: 84600    Time: 8.46         CPU Time: 11.0839s
+CFL: 0.457607 (in elmt 153)
+Steps: 84700    Time: 8.47         CPU Time: 11.1001s
+CFL: 0.389113 (in elmt 201)
+Steps: 84800    Time: 8.48         CPU Time: 11.0334s
+CFL: 0.387366 (in elmt 201)
+Steps: 84900    Time: 8.49         CPU Time: 11.0041s
+CFL: 0.441577 (in elmt 153)
+Steps: 85000    Time: 8.5          CPU Time: 11.014s 
+CFL: 0.388537 (in elmt 201)
+Total filters CPU Time:			     0.00244328s
+Writing: "s7055_85.chk" (0.0408315s, XML)
+Steps: 85100    Time: 8.51         CPU Time: 11.0505s
+CFL: 0.418221 (in elmt 168)
+Steps: 85200    Time: 8.52         CPU Time: 10.9915s
+CFL: 0.429108 (in elmt 161)
+Steps: 85300    Time: 8.53         CPU Time: 11.026s 
+CFL: 0.388225 (in elmt 201)
+Steps: 85400    Time: 8.54         CPU Time: 11.0422s
+CFL: 0.430597 (in elmt 168)
+Steps: 85500    Time: 8.55         CPU Time: 11.0337s
+CFL: 0.423202 (in elmt 161)
+Steps: 85600    Time: 8.56         CPU Time: 10.9928s
+CFL: 0.387969 (in elmt 201)
+Steps: 85700    Time: 8.57         CPU Time: 11.0331s
+CFL: 0.413121 (in elmt 168)
+Steps: 85800    Time: 8.58         CPU Time: 11.0405s
+CFL: 0.390267 (in elmt 201)
+Steps: 85900    Time: 8.59         CPU Time: 11.0273s
+CFL: 0.392587 (in elmt 153)
+Steps: 86000    Time: 8.6          CPU Time: 11.0512s
+CFL: 0.415558 (in elmt 160)
+Total filters CPU Time:			     0.00229068s
+Writing: "s7055_86.chk" (0.0391821s, XML)
+Steps: 86100    Time: 8.61         CPU Time: 11.0427s
+CFL: 0.43198 (in elmt 121)
+Steps: 86200    Time: 8.62         CPU Time: 11.028s 
+CFL: 0.437933 (in elmt 137)
+Steps: 86300    Time: 8.63         CPU Time: 10.9901s
+CFL: 0.40663 (in elmt 160)
+Steps: 86400    Time: 8.64         CPU Time: 10.9692s
+CFL: 0.403711 (in elmt 161)
+Steps: 86500    Time: 8.65         CPU Time: 10.9483s
+CFL: 0.444861 (in elmt 153)
+Steps: 86600    Time: 8.66         CPU Time: 11.0122s
+CFL: 0.390216 (in elmt 201)
+Steps: 86700    Time: 8.67         CPU Time: 10.9888s
+CFL: 0.388406 (in elmt 201)
+Steps: 86800    Time: 8.68         CPU Time: 11.0082s
+CFL: 0.43815 (in elmt 161)
+Steps: 86900    Time: 8.69         CPU Time: 11.0418s
+CFL: 0.389649 (in elmt 201)
+Steps: 87000    Time: 8.7          CPU Time: 11.0972s
+CFL: 0.416303 (in elmt 168)
+Total filters CPU Time:			     0.00231305s
+Writing: "s7055_87.chk" (0.0410158s, XML)
+Steps: 87100    Time: 8.71         CPU Time: 11.1115s
+CFL: 0.427599 (in elmt 161)
+Steps: 87200    Time: 8.72         CPU Time: 11.0787s
+CFL: 0.389095 (in elmt 201)
+Steps: 87300    Time: 8.73         CPU Time: 11.09s  
+CFL: 0.431783 (in elmt 168)
+Steps: 87400    Time: 8.74         CPU Time: 11.078s 
+CFL: 0.427432 (in elmt 1)
+Steps: 87500    Time: 8.75         CPU Time: 11.1111s
+CFL: 0.408159 (in elmt 2)
+Steps: 87600    Time: 8.76         CPU Time: 11.0743s
+CFL: 0.41123 (in elmt 168)
+Steps: 87700    Time: 8.77         CPU Time: 11.0773s
+CFL: 0.390701 (in elmt 201)
+Steps: 87800    Time: 8.78         CPU Time: 11.0607s
+CFL: 0.390372 (in elmt 169)
+Steps: 87900    Time: 8.79         CPU Time: 11.0403s
+CFL: 0.419468 (in elmt 160)
+Steps: 88000    Time: 8.8          CPU Time: 11.0192s
+CFL: 0.415021 (in elmt 161)
+Total filters CPU Time:			     0.00240136s
+Writing: "s7055_88.chk" (0.0414934s, XML)
+Steps: 88100    Time: 8.81         CPU Time: 11.0184s
+CFL: 0.443829 (in elmt 153)
+Steps: 88200    Time: 8.82         CPU Time: 11.0301s
+CFL: 0.410791 (in elmt 160)
+Steps: 88300    Time: 8.83         CPU Time: 11.0658s
+CFL: 0.416191 (in elmt 161)
+Steps: 88400    Time: 8.84         CPU Time: 11.1088s
+CFL: 0.464316 (in elmt 153)
+Steps: 88500    Time: 8.85         CPU Time: 11.0666s
+CFL: 0.390241 (in elmt 201)
+Steps: 88600    Time: 8.86         CPU Time: 10.9921s
+CFL: 0.387788 (in elmt 201)
+Steps: 88700    Time: 8.87         CPU Time: 11.0647s
+CFL: 0.455225 (in elmt 161)
+Steps: 88800    Time: 8.88         CPU Time: 11.1237s
+CFL: 0.389301 (in elmt 201)
+Steps: 88900    Time: 8.89         CPU Time: 11.1208s
+CFL: 0.40435 (in elmt 168)
+Steps: 89000    Time: 8.9          CPU Time: 11.0835s
+CFL: 0.439265 (in elmt 161)
+Total filters CPU Time:			     0.00231432s
+Writing: "s7055_89.chk" (0.0393915s, XML)
+Steps: 89100    Time: 8.91         CPU Time: 11.1361s
+CFL: 0.388749 (in elmt 201)
+Steps: 89200    Time: 8.92         CPU Time: 11.0941s
+CFL: 0.437423 (in elmt 168)
+Steps: 89300    Time: 8.93         CPU Time: 11.1135s
+CFL: 0.494558 (in elmt 393)
+Steps: 89400    Time: 8.94         CPU Time: 11.0573s
+CFL: 0.554838 (in elmt 393)
+Steps: 89500    Time: 8.95         CPU Time: 11.0404s
+CFL: 0.555851 (in elmt 393)
+Steps: 89600    Time: 8.96         CPU Time: 10.9988s
+CFL: 0.575855 (in elmt 121)
+Steps: 89700    Time: 8.97         CPU Time: 11.0039s
+CFL: 0.494866 (in elmt 2)
+Steps: 89800    Time: 8.98         CPU Time: 11.0404s
+CFL: 0.435258 (in elmt 2)
+Steps: 89900    Time: 8.99         CPU Time: 11.0185s
+CFL: 0.40807 (in elmt 161)
+Steps: 90000    Time: 9            CPU Time: 10.9861s
+CFL: 0.415032 (in elmt 137)
+Total filters CPU Time:			     0.00232535s
+Writing: "s7055_90.chk" (0.0414843s, XML)
+Steps: 90100    Time: 9.01         CPU Time: 10.8443s
+CFL: 0.422531 (in elmt 160)
+Steps: 90200    Time: 9.02         CPU Time: 10.9798s
+CFL: 0.396001 (in elmt 153)
+Steps: 90300    Time: 9.03         CPU Time: 11.1164s
+CFL: 0.565766 (in elmt 129)
+Steps: 90400    Time: 9.04         CPU Time: 11.0322s
+CFL: 0.424036 (in elmt 160)
+Steps: 90500    Time: 9.05         CPU Time: 11.032s 
+CFL: 0.422093 (in elmt 161)
+Steps: 90600    Time: 9.06         CPU Time: 11.0392s
+CFL: 0.462586 (in elmt 153)
+Steps: 90700    Time: 9.07         CPU Time: 11.157s 
+CFL: 0.495454 (in elmt 129)
+Steps: 90800    Time: 9.08         CPU Time: 11.1985s
+CFL: 0.40351 (in elmt 122)
+Steps: 90900    Time: 9.09         CPU Time: 11.1774s
+CFL: 0.454018 (in elmt 153)
+Steps: 91000    Time: 9.1          CPU Time: 11.1266s
+CFL: 0.389851 (in elmt 201)
+Total filters CPU Time:			     0.00231577s
+Writing: "s7055_91.chk" (0.0393218s, XML)
+Steps: 91100    Time: 9.11         CPU Time: 11.1208s
+CFL: 0.388168 (in elmt 201)
+Steps: 91200    Time: 9.12         CPU Time: 11.0339s
+CFL: 0.433024 (in elmt 161)
+Steps: 91300    Time: 9.13         CPU Time: 10.883s 
+CFL: 0.389005 (in elmt 201)
+Steps: 91400    Time: 9.14         CPU Time: 11.0919s
+CFL: 0.419248 (in elmt 168)
+Steps: 91500    Time: 9.15         CPU Time: 11.1229s
+CFL: 0.426813 (in elmt 161)
+Steps: 91600    Time: 9.16         CPU Time: 11.0548s
+CFL: 0.388769 (in elmt 201)
+Steps: 91700    Time: 9.17         CPU Time: 11.0891s
+CFL: 0.430693 (in elmt 168)
+Steps: 91800    Time: 9.18         CPU Time: 11.0422s
+CFL: 0.420475 (in elmt 161)
+Steps: 91900    Time: 9.19         CPU Time: 11.0429s
+CFL: 0.388345 (in elmt 201)
+Steps: 92000    Time: 9.2          CPU Time: 11.0331s
+CFL: 0.404146 (in elmt 168)
+Total filters CPU Time:			     0.00238616s
+Writing: "s7055_92.chk" (0.0411927s, XML)
+Steps: 92100    Time: 9.21         CPU Time: 11.0409s
+CFL: 0.390266 (in elmt 201)
+Steps: 92200    Time: 9.22         CPU Time: 11.0819s
+CFL: 0.388637 (in elmt 201)
+Steps: 92300    Time: 9.23         CPU Time: 11.0879s
+CFL: 0.417243 (in elmt 160)
+Steps: 92400    Time: 9.24         CPU Time: 11.0696s
+CFL: 0.411838 (in elmt 161)
+Steps: 92500    Time: 9.25         CPU Time: 7.11074s
+CFL: 0.44352 (in elmt 153)
+Steps: 92600    Time: 9.26         CPU Time: 5.15112s
+CFL: 0.400498 (in elmt 160)
+Steps: 92700    Time: 9.27         CPU Time: 5.18152s
+CFL: 0.406484 (in elmt 161)
+Steps: 92800    Time: 9.28         CPU Time: 5.17195s
+CFL: 0.455164 (in elmt 153)
+Steps: 92900    Time: 9.29         CPU Time: 5.23509s
+CFL: 0.390508 (in elmt 201)
+Steps: 93000    Time: 9.3          CPU Time: 5.20874s
+CFL: 0.388436 (in elmt 201)
+Total filters CPU Time:			     0.00136253s
+Writing: "s7055_93.chk" (0.0342827s, XML)
+Steps: 93100    Time: 9.31         CPU Time: 5.17795s
+CFL: 0.439815 (in elmt 161)
+Steps: 93200    Time: 9.32         CPU Time: 5.16953s
+CFL: 0.392836 (in elmt 137)
+Steps: 93300    Time: 9.33         CPU Time: 5.2032s 
+CFL: 0.418559 (in elmt 168)
+Steps: 93400    Time: 9.34         CPU Time: 5.17421s
+CFL: 0.428414 (in elmt 161)
+Steps: 93500    Time: 9.35         CPU Time: 5.16865s
+CFL: 0.388877 (in elmt 201)
+Steps: 93600    Time: 9.36         CPU Time: 5.18922s
+CFL: 0.432693 (in elmt 168)
+Steps: 93700    Time: 9.37         CPU Time: 5.17087s
+CFL: 0.421823 (in elmt 161)
+Steps: 93800    Time: 9.38         CPU Time: 5.14216s
+CFL: 0.388445 (in elmt 201)
+Steps: 93900    Time: 9.39         CPU Time: 5.16059s
+CFL: 0.410751 (in elmt 168)
+Steps: 94000    Time: 9.4          CPU Time: 5.17625s
+CFL: 0.390439 (in elmt 201)
+Total filters CPU Time:			     0.00134239s
+Writing: "s7055_94.chk" (0.0349358s, XML)
+Steps: 94100    Time: 9.41         CPU Time: 5.19644s
+CFL: 0.405144 (in elmt 145)
+Steps: 94200    Time: 9.42         CPU Time: 5.15325s
+CFL: 0.420192 (in elmt 160)
+Steps: 94300    Time: 9.43         CPU Time: 5.15043s
+CFL: 0.468913 (in elmt 129)
+Steps: 94400    Time: 9.44         CPU Time: 5.12341s
+CFL: 0.450888 (in elmt 137)
+Steps: 94500    Time: 9.45         CPU Time: 5.1351s 
+CFL: 0.401281 (in elmt 160)
+Steps: 94600    Time: 9.46         CPU Time: 5.13959s
+CFL: 0.398226 (in elmt 161)
+Steps: 94700    Time: 9.47         CPU Time: 5.16879s
+CFL: 0.446648 (in elmt 160)
+Steps: 94800    Time: 9.48         CPU Time: 5.1906s 
+CFL: 0.476193 (in elmt 393)
+Steps: 94900    Time: 9.49         CPU Time: 5.18585s
+CFL: 0.560395 (in elmt 393)
+Steps: 95000    Time: 9.5          CPU Time: 5.11827s
+CFL: 0.581288 (in elmt 393)
+Total filters CPU Time:			     0.00142581s
+Writing: "s7055_95.chk" (0.0345901s, XML)
+Steps: 95100    Time: 9.51         CPU Time: 5.16777s
+CFL: 0.567031 (in elmt 1)
+Steps: 95200    Time: 9.52         CPU Time: 5.17866s
+CFL: 0.550194 (in elmt 2)
+Steps: 95300    Time: 9.53         CPU Time: 5.15148s
+CFL: 0.49761 (in elmt 2)
+Steps: 95400    Time: 9.54         CPU Time: 5.19207s
+CFL: 0.409299 (in elmt 2)
+Steps: 95500    Time: 9.55         CPU Time: 5.14688s
+CFL: 0.430453 (in elmt 168)
+Steps: 95600    Time: 9.56         CPU Time: 5.16557s
+CFL: 0.419431 (in elmt 161)
+Steps: 95700    Time: 9.57         CPU Time: 5.14109s
+CFL: 0.388734 (in elmt 201)
+Steps: 95800    Time: 9.58         CPU Time: 5.17426s
+CFL: 0.399549 (in elmt 160)
+Steps: 95900    Time: 9.59         CPU Time: 5.15582s
+CFL: 0.398342 (in elmt 161)
+Steps: 96000    Time: 9.6          CPU Time: 5.17062s
+CFL: 0.423612 (in elmt 153)
+Total filters CPU Time:			     0.00135615s
+Writing: "s7055_96.chk" (0.0342389s, XML)
+Steps: 96100    Time: 9.61         CPU Time: 5.15763s
+CFL: 0.413054 (in elmt 160)
+Steps: 96200    Time: 9.62         CPU Time: 5.17139s
+CFL: 0.409143 (in elmt 161)
+Steps: 96300    Time: 9.63         CPU Time: 5.14588s
+CFL: 0.441885 (in elmt 153)
+Steps: 96400    Time: 9.64         CPU Time: 5.15365s
+CFL: 0.3916 (in elmt 160)
+Steps: 96500    Time: 9.65         CPU Time: 5.18362s
+CFL: 0.392274 (in elmt 161)
+Steps: 96600    Time: 9.66         CPU Time: 5.1782s 
+CFL: 0.441681 (in elmt 153)
+Steps: 96700    Time: 9.67         CPU Time: 5.19742s
+CFL: 0.390386 (in elmt 201)
+Steps: 96800    Time: 9.68         CPU Time: 5.1966s 
+CFL: 0.389881 (in elmt 168)
+Steps: 96900    Time: 9.69         CPU Time: 5.1744s 
+CFL: 0.426366 (in elmt 161)
+Steps: 97000    Time: 9.7          CPU Time: 5.18617s
+CFL: 0.389518 (in elmt 201)
+Total filters CPU Time:			     0.00137295s
+Writing: "s7055_97.chk" (0.0344252s, XML)
+Steps: 97100    Time: 9.71         CPU Time: 5.20818s
+CFL: 0.42964 (in elmt 168)
+Steps: 97200    Time: 9.72         CPU Time: 5.19458s
+CFL: 0.494741 (in elmt 129)
+Steps: 97300    Time: 9.73         CPU Time: 5.21398s
+CFL: 0.389077 (in elmt 201)
+Steps: 97400    Time: 9.74         CPU Time: 5.19476s
+CFL: 0.427229 (in elmt 168)
+Steps: 97500    Time: 9.75         CPU Time: 5.19791s
+CFL: 0.410483 (in elmt 161)
+Steps: 97600    Time: 9.76         CPU Time: 5.1911s 
+CFL: 0.389141 (in elmt 201)
+Steps: 97700    Time: 9.77         CPU Time: 5.19951s
+CFL: 0.40901 (in elmt 160)
+Steps: 97800    Time: 9.78         CPU Time: 5.17075s
+CFL: 0.3924 (in elmt 161)
+Steps: 97900    Time: 9.79         CPU Time: 5.19704s
+CFL: 0.402233 (in elmt 153)
+Steps: 98000    Time: 9.8          CPU Time: 5.1959s 
+CFL: 0.418639 (in elmt 160)
+Total filters CPU Time:			     0.00136449s
+Writing: "s7055_98.chk" (0.0343441s, XML)
+Steps: 98100    Time: 9.81         CPU Time: 5.25389s
+CFL: 0.416428 (in elmt 161)
+Steps: 98200    Time: 9.82         CPU Time: 5.20096s
+CFL: 0.457815 (in elmt 153)
+Steps: 98300    Time: 9.83         CPU Time: 5.20528s
+CFL: 0.391366 (in elmt 201)
+Steps: 98400    Time: 9.84         CPU Time: 5.19582s
+CFL: 0.505454 (in elmt 393)
+Steps: 98500    Time: 9.85         CPU Time: 5.18541s
+CFL: 0.557725 (in elmt 393)
+Steps: 98600    Time: 9.86         CPU Time: 5.21951s
+CFL: 0.529883 (in elmt 1)
+Steps: 98700    Time: 9.87         CPU Time: 5.20894s
+CFL: 0.521701 (in elmt 2)
+Steps: 98800    Time: 9.88         CPU Time: 5.20019s
+CFL: 0.498394 (in elmt 2)
+Steps: 98900    Time: 9.89         CPU Time: 5.18306s
+CFL: 0.449337 (in elmt 137)
+Steps: 99000    Time: 9.9          CPU Time: 5.18906s
+CFL: 0.433247 (in elmt 168)
+Total filters CPU Time:			     0.00137379s
+Writing: "s7055_99.chk" (0.0346316s, XML)
+Steps: 99100    Time: 9.91         CPU Time: 5.18066s
+CFL: 0.442704 (in elmt 161)
+Steps: 99200    Time: 9.92         CPU Time: 5.21765s
+CFL: 0.38855 (in elmt 201)
+Steps: 99300    Time: 9.93         CPU Time: 5.23342s
+CFL: 0.427973 (in elmt 168)
+Steps: 99400    Time: 9.94         CPU Time: 5.25171s
+CFL: 0.430141 (in elmt 129)
+Steps: 99500    Time: 9.95         CPU Time: 5.25941s
+CFL: 0.471902 (in elmt 129)
+Steps: 99600    Time: 9.96         CPU Time: 5.20126s
+CFL: 0.410541 (in elmt 160)
+Steps: 99700    Time: 9.97         CPU Time: 5.21352s
+CFL: 0.390507 (in elmt 153)
+Steps: 99800    Time: 9.98         CPU Time: 5.17335s
+CFL: 0.429795 (in elmt 145)
+Steps: 99900    Time: 9.99         CPU Time: 5.17675s
+CFL: 0.416377 (in elmt 160)
+Steps: 100000   Time: 10           CPU Time: 5.19658s
+CFL: 0.466056 (in elmt 129)
+Total filters CPU Time:			     0.00135269s
+Writing: "s7055_100.chk" (0.0359054s, XML)
+Time-integration  : 10636.2s
+Writing: "s7055.fld" (0.0340153s, XML)
+-------------------------------------------
+Total Computation Time = 10709s
+-------------------------------------------
+L 2 error (variable u) : 19.9536
+L inf error (variable u) : 1.62051
+L 2 error (variable v) : 1.39609
+L inf error (variable v) : 1.56977
+L 2 error (variable p) : 0.816987
+L inf error (variable p) : 1.18441
+-------------------------------------------
+Region                 Elapsed time Avg (s)  Min (s)       Max (s)       Count         IO Level      
+Execute                10709.5               10709.5       10709.5       1             0             
+
+Advection Terms        187.479               177.184       208.501       100001        0             
+Pressure BCs           49.4442               0.125003      144.334       100001        0             
+Pressure Forcing       129.171               125.087       137.476       100000        0             
+Pressure Solve         485.062               468.617       519.52        100000        0             
+Viscous Forcing        210.103               200.432       222.511       100000        0             
+Viscous Solve          9243.12               9221.65       9274.81       100000        0             

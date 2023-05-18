@@ -1,0 +1,21 @@
+function[] = my_conv_plot(conv_data, name, var, spacing, xlab, ylab, lims, val)
+    
+    % Interpolation for experimental data
+    exp_val = interp1(val.a, val.(var), 8);
+    
+    % Plotting
+    figure('Name', name)
+    hold on 
+    plot(conv_data.poly2.Time(1:spacing:end)-conv_data.poly2.Time(1), conv_data.(['poly',num2str(poly_degrees(1))]).(var)(1:spacing:end), ':x', 'DisplayName', 'P=2')
+    plot(conv_data.poly4.Time(1:spacing:end)-conv_data.poly4.Time(1), conv_data.(['poly',num2str(poly_degrees(2))]).(var)(1:spacing:end), '-.square', 'DisplayName', 'P=4')
+    plot(conv_data.poly6.Time(1:spacing:end)-conv_data.poly6.Time(1), conv_data.(['poly',num2str(poly_degrees(3))]).(var)(1:spacing:end), '--*', 'DisplayName', 'P=6')
+    plot([0 10], [exp_val exp_val], '-k', 'DisplayName', 'Experimental')
+    hold off
+    grid on
+    grid minor
+    legend('Location','NorthWest')
+    xlabel(xlab)
+    ylabel(ylab)
+    axis(lims)
+
+end

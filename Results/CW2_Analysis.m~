@@ -1,0 +1,120 @@
+%% A script to analyse outputs from nektar++
+% By Harrison Moss
+% 15/04/23
+
+%% Setting up the workspace
+close all
+clear
+clc
+set(0,'DefaultFigureWindowStyle','Docked')
+
+%% User variables
+alphas = [-4,-2,0,2,4,6,8];
+
+%% Pre-allocation
+Cl_avg = zeros(1, length(alphas));
+Cd_avg = zeros(1, length(alphas));
+
+%% Main Loop
+for i = 1:length(alphas)
+    % Load Data
+    data = dlmread(['/home/hm1318/AoCFD/CW2/2D/',num2str(alphas(i)),'/aeroForces',num2str(alphas(i)),'.fce'],'',6,0);
+    tableNames = {'Time','x_pres','x_visc','x_tot','y_pres','y_visc','y_tot','mom_visc','mom_pres','mom_tot'};
+    data = array2table(data, 'VariableNames',tableNames);
+    
+    % AoA Correction
+    data.Cd = 2 * (cosd(alphas(i))*data.x_tot + sind(alphas(i))*data.y_tot);
+    data.Cl = 2 * (sind(alphas(i))*data.x_tot + cosd(alphas(i))*data.y_tot);
+    
+    % Plot
+    figure()
+    title(['Coefficients for \alpha = ',num2str(alphas(i))]);
+    hold on
+    plot(data.Time, data.Cl, '-b', 'DisplayName', 'C_L')
+    plot(data.Time, data.Cd, '.g', 'DisplayName', 'C_D')
+    hold off
+    legend('Location','NorthWest')
+    xlabel('Time (s)')
+    ylabel('Coefficient Magnitude')
+    
+    % FFT
+    L = height(data);
+    sample_freq = L/(data.Time(L)-data.Time(1));
+    my_fft(data.Cl(round(L/2):end), alphas(i), sample_freq, 'Lift')
+    my_fft(data.Cd(round(L/2):end), alphas(i), sample_freq, 'Drag')
+    
+    % Filtering
+    Cl_avg(i) = my_filtering(data.Cl, 1, sample_freq, 'Lift', 0.85, 0.95);
+    Cd_avg(i) = my_filtering(data.Cd, 1, sample_freq, 'Drag', 0.85, 0.95);
+    
+end
+
+%% Plotting sim results against experimental data
+% Tabulating Nektar
+nek = table(alphas',Cl_avg',Cd_avg','VariableNames',{'a','Cl','Cd'});
+
+% Loading data
+validation.ccm_sa = dlmread('ccm_sa_data.txt','',2,0);
+validation.ccm_sa = array2table(validation.ccm_sa, 'VariableNames',{'a','Cl','Cd'});
+validation.ccm_sa = validation.ccm_sa(1:end-1,:);
+validation.ccm_sst = dlmread('ccm_sst_data.txt','',2,0);
+validation.ccm_sst = array2table(validation.ccm_sst, 'VariableNames',{'a','Cl','Cd'});
+validation.exp = dlmread('exp_data.txt','',2,0);
+validation.exp = array2table(validation.exp, 'VariableNames',{'a','Cl','Cd'});
+
+% Linespecs
+ls.sa = ':^'; colour.sa = [0.4660 0.6740 0.1880];
+ls.sst = ':v'; colour.sst = [0.4940 0.1840 0.5560];
+ls.exp = '-k';
+ls.nek = '--square'; colour.nek = [0.8500 0.3250 0.0980];
+
+% Plotting
+my_plot('Cl vs a', nek, validation, 'a', 'Cl', '\alpha (degrees)', 'C_L', ls, colour)
+my_plot('Cd vs a', nek, validation, 'a', 'Cd', '\alpha (degrees)', 'C_D', ls, colour)
+my_plot('Cl vs Cd', nek, validation, 'Cd', 'Cl', 'C_D', 'C_L', ls, colour)
+
+%% Convergence Plot
+poly_degrees = [2,4,6];
+for i = 1:length(poly_degrees)
+    
+    % Import data
+    conv_data.(['poly',num2str(poly_degrees(i))]) = dlmread(['ConvergenceResults/aeroForcesP',num2str(poly_degrees(i)),'.fce'],'',6,0);
+    conv_data.(['poly',num2str(poly_degrees(i))]) = array2table(conv_data.(['poly',num2str(poly_degrees(i))]), 'VariableNames', tableNames);
+    
+    % AoA Correction
+    conv_data.(['poly',num2str(poly_degrees(i))]).Cd = 2 * (cosd(alphas(i))*conv_data.(['poly',num2str(poly_degrees(i))]).x_tot + sind(alphas(i))*conv_data.(['poly',num2str(poly_degrees(i))]).y_tot);
+    conv_data.(['poly',num2str(poly_degrees(i))]).Cl = 2 * (sind(alphas(i))*conv_data.(['poly',num2str(poly_degrees(i))]).x_tot + cosd(alphas(i))*conv_data.(['poly',num2str(poly_degrees(i))]).y_tot);
+    
+    % Plot
+    figure('Name', ['Coefficient plots for P=',num2str(poly_degrees(i))])
+    title(['Coefficients for P = ',num2str(poly_degrees(i))]);
+    hold on
+    plot(conv_data.(['poly',num2str(poly_degrees(i))]).Time, conv_data.(['poly',num2str(poly_degrees(i))]).Cl, '-b', 'DisplayName', 'C_L')
+    plot(conv_data.(['poly',num2str(poly_degrees(i))]).Time, conv_data.(['poly',num2str(poly_degrees(i))]).Cd, '.g', 'DisplayName', 'C_D')
+    hold off
+    legend('Location','NorthWest')
+    xlabel('Time (s)')
+    ylabel('Coefficient Magnitude')
+    
+    % FFT
+    L = height(conv_data.(['poly',num2str(poly_degrees(i))]));
+    sample_freq = L/(conv_data.(['poly',num2str(poly_degrees(i))]).Time(L)-conv_data.(['poly',num2str(poly_degrees(i))]).Time(1));
+    my_fft(conv_data.(['poly',num2str(poly_degrees(i))]).Cl(round(L/2):end), poly_degrees(i), sample_freq, 'Lift')
+    my_fft(conv_data.(['poly',num2str(poly_degrees(i))]).Cd(round(L/2):end), poly_degrees(i), sample_freq, 'Drag')
+    
+    % Filtering
+    conv_Cl_avg(i) = my_filtering(conv_data.(['poly',num2str(poly_degrees(i))]).Cl, 1, sample_freq, 'Lift', 0.85, 0.95);
+    conv_Cd_avg(i) = my_filtering(conv_data.(['poly',num2str(poly_degrees(i))]).Cd, 1, sample_freq, 'Drag', 0.85, 0.95);
+    
+end
+
+% Plotting
+figure('Name', 'Cl Convergence per p')
+hold on 
+plot(conv_data.(['poly',num2str(poly_degrees(1))]).Time, conv_data.(['poly',num2str(poly_degrees(1))]).Cl, ':x', 'DisplayName', 'P=2')
+plot(conv_data.(['poly',num2str(poly_degrees(2))]).Time, conv_data.(['poly',num2str(poly_degrees(2))]).Cl, '.-^', 'DisplayName', 'P=4')
+plot(conv_data.(['poly',num2str(poly_degrees(3))]).Time, conv_data.(['poly',num2str(poly_degrees(3))]).Cl, '--*', 'DisplayName', '')
+hold off
+grid on
+grid minor
+legend('Location','NorthWest')

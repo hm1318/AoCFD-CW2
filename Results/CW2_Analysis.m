@@ -98,9 +98,10 @@ ls.exp = '-k';
 ls.nek = '--square'; colour.nek = [0.8500 0.3250 0.0980];
 
 % Plotting
-my_plot('Cl vs a', nek, validation, 'a', 'Cl', '\alpha (degrees)', 'C_L', ls, colour)
-my_plot('Cd vs a', nek, validation, 'a', 'Cd', '\alpha (degrees)', 'C_D', ls, colour)
-my_plot('Cl vs Cd', nek, validation, 'Cd', 'Cl', 'C_D', 'C_L', ls, colour)
+my_plot('Cl vs a', nek, validation, 'a', 'Cl', '\alpha (degrees)', 'C_L', ls, colour, 1)
+my_plot('Cd vs a', nek, validation, 'a', 'Cd', '\alpha (degrees)', 'C_D', ls, colour, 1)
+my_plot('Cl vs Cd', nek, validation, 'Cd', 'Cl', 'C_D', 'C_L', ls, colour, 1)
+my_plot('Cl vs Cd', nek, validation, 'Cd', 'Cl', 'C_D', 'C_L', ls, colour, 0)
 
 %% Convergence Plot
 % Data Extraction
@@ -133,15 +134,15 @@ my_conv_error_plot(conv_data, 'Cd Convergence per p', 'Cd', 20, 'Time (s)', '\ep
 %% Plotting Drag contributors
 figure('Name','x Contributions to Forces')
 hold on
-plot(components2D.alpha, components2D.x_pres, '--b', 'LineWidth', 1.5, 'DisplayName',' 2D Pressure')
-plot(components2D.alpha, components2D.x_visc, ':b', 'LineWidth', 2, 'DisplayName',' 2D Viscous')
-plot(components2D.alpha, components2D.x_tot, '-xb', 'LineWidth', 1.5, 'DisplayName',' 2D Total')
-plot(components3D.alpha, components3D.x_pres, '--r', 'LineWidth', 1.5, 'DisplayName',' 3D Pressure')
-plot(components3D.alpha, components3D.x_visc, ':r', 'LineWidth', 2, 'DisplayName',' 3D Viscous')
-plot(components3D.alpha, components3D.x_tot, '-xr', 'LineWidth', 1.5, 'DisplayName',' 3D Total')
+plot(components2D.alpha, components2D.x_pres, '--xb', 'LineWidth', 1.5, 'MarkerSize', 12, 'DisplayName',' 2D Pressure')
+plot(components2D.alpha, components2D.x_visc, ':xb', 'LineWidth', 2, 'MarkerSize', 12, 'DisplayName',' 2D Viscous')
+plot(components2D.alpha, components2D.x_tot, '-xb', 'LineWidth', 1.5, 'MarkerSize', 12, 'DisplayName',' 2D Total')
+plot(components3D.alpha, components3D.x_pres, '--+r', 'LineWidth', 1.5, 'MarkerSize', 12, 'DisplayName',' 3D Pressure')
+plot(components3D.alpha, components3D.x_visc, ':+r', 'LineWidth', 2, 'MarkerSize', 12, 'DisplayName',' 3D Viscous')
+plot(components3D.alpha, components3D.x_tot, '-+r', 'LineWidth', 1.5, 'MarkerSize', 12, 'DisplayName',' 3D Total')
 hold off
 xlabel('\alpha')
-ylabel('STH')
+ylabel('Contribution to Force in x')
 grid on
 grid minor
 legend('Location','southwest')
@@ -149,15 +150,15 @@ set(gca,"FontSize",18)
 
 figure('Name','y Contributions to Forces')
 hold on
-plot(components2D.alpha, components2D.y_pres, '--b', 'LineWidth', 1.5, 'DisplayName',' 2D Pressure')
-plot(components2D.alpha, components2D.y_visc, ':b', 'LineWidth', 2, 'DisplayName',' 2D Viscous')
+plot(components2D.alpha, components2D.y_pres, '--xb', 'LineWidth', 1.5, 'DisplayName',' 2D Pressure')
+plot(components2D.alpha, components2D.y_visc, ':xb', 'LineWidth', 2, 'DisplayName',' 2D Viscous')
 plot(components2D.alpha, components2D.y_tot, '-xb', 'LineWidth', 1.5, 'DisplayName',' 2D Total')
-plot(components3D.alpha, components3D.y_pres, '--r', 'LineWidth', 1.5, 'DisplayName',' 3D Pressure')
-plot(components3D.alpha, components3D.y_visc, ':r', 'LineWidth', 2, 'DisplayName',' 3D Viscous')
-plot(components3D.alpha, components3D.y_tot, '-xr', 'LineWidth', 1.5, 'DisplayName',' 3D Total')
+plot(components3D.alpha, components3D.y_pres, '--+r', 'LineWidth', 1.5, 'DisplayName',' 3D Pressure')
+plot(components3D.alpha, components3D.y_visc, ':+r', 'LineWidth', 2, 'DisplayName',' 3D Viscous')
+plot(components3D.alpha, components3D.y_tot, '-+r', 'LineWidth', 1.5, 'DisplayName',' 3D Total')
 hold off
 xlabel('\alpha')
-ylabel('STH')
+ylabel('Contribution to Force in y')
 grid on
 grid minor
 legend('Location','northwest')
@@ -165,18 +166,57 @@ set(gca,"FontSize",18)
 
 %% Plotting Pressure Coefficients
 q = 0.5;
-figure('Name','Pressure Coefficient Comparison')
-hold on
+pres_avg = array2table(zeros(81,3), 'VariableNames',{'a','D2','D3'});
 
-for i = 203:213
+figure('Name','2D Pressure Coefficient Comparison')
+hold on
+for i = 101:111
     data = dlmread(['2DResults/Pressures/pres_',num2str(i),'.dat'],'',3,0);
-    data = data(:,[1,6]);
+    data = data(:,[1,5]);
     data = array2table(data,'VariableNames',{'x','p'});
     data.Cp = data.p/q;
     plot(data.x,-data.Cp)
+
+    pres_avg.D2 = pres_avg.D2 + data.Cp;
 end
 hold off
 xlabel('x/c')
 ylabel('-C_p')
 grid on 
 grid minor
+
+figure('Name','3D Pressure Coefficient Comparison')
+hold on
+for i = 203:213
+    data = dlmread(['3DResults/Pressures/pres_',num2str(i),'.dat'],'',3,0);
+    data = data(:,[1,6]);
+    data = array2table(data,'VariableNames',{'x','p'});
+    data.Cp = data.p/q;
+    plot(data.x,-data.Cp)
+
+    pres_avg.D3 = pres_avg.D3 + data.Cp;
+end
+hold off
+xlabel('x/c')
+ylabel('-C_p')
+grid on 
+grid minor
+
+s7055 = readtable("points_s7055.pts",'FileType','text');
+s7055.Properties.VariableNames={'x','y'};
+
+pres_avg.x = data.x;
+pres_avg.D2 = pres_avg.D2/11;
+pres_avg.D3 = pres_avg.D3/11;
+figure('Name', 'C_p Comparison')
+hold on
+plot(pres_avg.x, -pres_avg.D2,'-.b','DisplayName','2D', 'LineWidth', 2)
+plot(pres_avg.x, -pres_avg.D3,'--r', 'DisplayName','3D', 'LineWidth', 2)
+plot(s7055.x, 6*s7055.y,'-k','DisplayName', 'S7055 (Not to Scale)', 'LineWidth', 2)
+hold off
+xlabel('x/c')
+ylabel('-C_p')
+grid on
+grid minor
+set(gca,"FontSize",18)
+legend()

@@ -165,18 +165,56 @@ set(gca,"FontSize",18)
 
 %% Plotting Pressure Coefficients
 q = 0.5;
-figure('Name','Pressure Coefficient Comparison')
-hold on
+pres_avg = array2table(zeros(81,3), 'VariableNames',{'a','D2','D3'});
 
-for i = 203:213
+figure('Name','2D Pressure Coefficient Comparison')
+hold on
+for i = 101:111
     data = dlmread(['2DResults/Pressures/pres_',num2str(i),'.dat'],'',3,0);
-    data = data(:,[1,6]);
+    data = data(:,[1,5]);
     data = array2table(data,'VariableNames',{'x','p'});
     data.Cp = data.p/q;
     plot(data.x,-data.Cp)
+
+    pres_avg.D2 = pres_avg.D2 + data.Cp;
 end
 hold off
 xlabel('x/c')
 ylabel('-C_p')
 grid on 
 grid minor
+
+figure('Name','3D Pressure Coefficient Comparison')
+hold on
+for i = 203:213
+    data = dlmread(['3DResults/Pressures/pres_',num2str(i),'.dat'],'',3,0);
+    data = data(:,[1,6]);
+    data = array2table(data,'VariableNames',{'x','p'});
+    data.Cp = data.p/q;
+    plot(data.x,-data.Cp)
+
+    pres_avg.D3 = pres_avg.D3 + data.Cp;
+end
+hold off
+xlabel('x/c')
+ylabel('-C_p')
+grid on 
+grid minor
+
+s7055 = readtable("points_s7055.pts",'FileType','text');
+s7055.Properties.VariableNames={'x','y'};
+
+pres_avg.x = data.x;
+pres_avg.D2 = pres_avg.D2/11;
+pres_avg.D3 = pres_avg.D3/11;
+figure('Name', 'C_p Comparison')
+hold on
+plot(pres_avg.x, -pres_avg.D2,'DisplayName','2D')
+plot(pres_avg.x, -pres_avg.D3,'DisplayName','3D')
+plot(s7055.x, s7055.y,'-k',)
+hold off
+xlabel('x/c')
+ylabel('-C_p')
+grid on
+grid minor
+legend()

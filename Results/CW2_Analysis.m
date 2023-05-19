@@ -13,12 +13,10 @@ alphas = [-4,-2,0,2,4,6,8];
 alphas_3D = [-4, 0, 8];
 
 %% Pre-allocation
-Cl_avg = zeros(1, length(alphas));
-Cd_avg = zeros(1, length(alphas));
-results_2D = array2table(zeros(length(alphas), 7),'VariableNames',{'alpha','Cl','Cd','Cl_neg','Cl_pos','Cd_neg','Cd_pos'});
-results_3D = array2table(zeros(length(alphas_3D), 7),'VariableNames',{'alpha','Cl','Cd','Cl_neg','Cl_pos','Cd_neg','Cd_pos'});
-Cl_avg_3D = zeros(1, length(alphas_3D));
-Cd_avg_3D = zeros(1, length(alphas_3D));
+nek.D2 = array2table(zeros(length(alphas), 7),'VariableNames',{'a','Cl','Cd','Cl_neg','Cl_pos','Cd_neg','Cd_pos'});
+nek.D2.a = alphas';
+nek.D3 = array2table(zeros(length(alphas_3D), 7),'VariableNames',{'a','Cl','Cd','Cl_neg','Cl_pos','Cd_neg','Cd_pos'});
+nek.D3.a = alphas_3D';
 components2D = zeros(length(alphas), 7);
 components2D = array2table(components2D,'VariableNames',{'alpha','x_pres','x_visc','x_tot','y_pres','y_visc','y_tot'});
 components3D = zeros(length(alphas_3D), 7);
@@ -26,7 +24,7 @@ components3D = array2table(components3D,'VariableNames',{'alpha','x_pres','x_vis
 
 %% Main Extraction Loop - 2D
 for i = 1:length(alphas)
-    % Load Data
+    % Load Data - changes each loop
     data = dlmread(['2DResults/aeroForces',num2str(alphas(i)),'.fce'],'',6,0);
     tableNames = {'Time','x_pres','x_visc','x_tot','y_pres','y_visc','y_tot','mom_visc','mom_pres','mom_tot'};
     data = array2table(data, 'VariableNames',tableNames);
@@ -42,8 +40,8 @@ for i = 1:length(alphas)
     my_fft(data.Cd(round(L/2):end), alphas(i), sample_freq, 'Drag')
     
     % Filtering
-    Cl_avg(i) = my_filtering(data.Cl, 1, sample_freq, 'Lift', 0.85, 0.95);
-    Cd_avg(i) = my_filtering(data.Cd, 1, sample_freq, 'Drag', 0.85, 0.95);
+    [nek.D2.Cl(i),nek.D2.Cl_neg(i),nek.D2.Cl_pos(i)] = my_filtering(data.Cl, 1, sample_freq, 'Lift', 0.85, 0.95);
+    [nek.D2.Cd(i),nek.D2.Cd_neg(i),nek.D2.Cd_pos(i)] = my_filtering(data.Cd, 1, sample_freq, 'Drag', 0.85, 0.95);
 
     % Sampling x&y components of force
     components2D.alpha(i) = alphas(i);
@@ -72,8 +70,8 @@ for i = 1:length(alphas_3D)
     my_fft(data.Cd(round(L/2):end), alphas_3D(i), sample_freq, 'Drag')
     
     % Filtering
-    Cl_avg_3D(i) = my_filtering(data.Cl, 1, sample_freq, 'Lift', 0.85, 0.95);
-    Cd_avg_3D(i) = my_filtering(data.Cd, 1, sample_freq, 'Drag', 0.85, 0.95);
+    [nek.D3.Cl(i),nek.D3.Cl_neg(i),nek.D3.Cl_pos(i)] = my_filtering(data.Cl, 1, sample_freq, 'Lift', 0.85, 0.95);
+    [nek.D3.Cd(i),nek.D3.Cd_neg(i),nek.D3.Cd_pos(i)] = my_filtering(data.Cd, 1, sample_freq, 'Drag', 0.85, 0.95);
 
     % Sampling x&y components of force
     components3D.alpha(i) = alphas_3D(i);
@@ -84,10 +82,6 @@ end
 clear table
 
 %% Plotting sim results against experimental data
-% Tabulating Nektar
-nek.D2 = table(alphas',Cl_avg',Cd_avg','VariableNames',{'a','Cl','Cd'});
-nek.D3 = table(alphas_3D',Cl_avg_3D',Cd_avg_3D','VariableNames',{'a','Cl','Cd'});
-
 % Loading data
 validation.ccm_sa = dlmread('ccm_sa_data.txt','',2,0);
 validation.ccm_sa = array2table(validation.ccm_sa, 'VariableNames',{'a','Cl','Cd'});

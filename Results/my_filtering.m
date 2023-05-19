@@ -1,6 +1,6 @@
 % Function to take signal, apply a lowpass filter at specified frequency
 % and plot resulting waveform
-function[avg_coeff] = my_filtering(signal, cutoff, sample_freq, variable, start_trim_point, end_trim_point)
+function[avg_coeff,neg,pos] = my_filtering(signal, cutoff, sample_freq, variable, start_trim_point, end_trim_point)
 
     L = length(signal);
     
@@ -24,6 +24,9 @@ function[avg_coeff] = my_filtering(signal, cutoff, sample_freq, variable, start_
         ylabel('Magnitude')
     end
     
-    avg_coeff = mean(filtered(ceil(L*start_trim_point):floor(L*end_trim_point)));
+    data = filtered(ceil(L*start_trim_point):floor(L*end_trim_point));
+    avg_coeff = mean(data);
+    neg = avg_coeff - min(signal(ceil(L*start_trim_point):floor(L*end_trim_point)));
+    pos = max(signal(ceil(L*start_trim_point):floor(L*end_trim_point))) - avg_coeff;
 
 end
